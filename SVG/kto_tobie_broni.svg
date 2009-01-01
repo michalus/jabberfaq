@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="90.000000"
+   inkscape:export-xdpi="90.000000"
+   inkscape:export-filename="C:\Program Files\Inkscape\kto_tobie_broni.png"
+   sodipodi:docname="kto_tobie_broni.svg"
+   sodipodi:docbase="C:\Program Files\Inkscape"
+   inkscape:version="0.40+cvs"
+   sodipodi:version="0.32"
+   id="svg2"
+   height="595.27559pt"
+   width="841.88975pt">
+  <defs
+     id="defs3">
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path26220"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutS"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path1051"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="StopL"
+       style="overflow:visible">
+      <path
+         id="path26212"
+         d="M 0.0,5.65 L 0.0,-5.65"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="StopM"
+       style="overflow:visible">
+      <path
+         id="path26209"
+         d="M 0.0,5.65 L 0.0,-5.65"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Scissors"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Scissors"
+       style="overflow:visible">
+      <path
+         id="schere"
+         style="marker-start:none"
+         d="M 9.0898857,-3.6061018 C 8.1198849,-4.7769976 6.3697607,-4.7358294 5.0623558,-4.2327734 L -3.1500488,-1.1548705 C -5.5383421,-2.4615840 -7.8983361,-2.0874077 -7.8983361,-2.7236578 C -7.8983361,-3.2209742 -7.4416699,-3.1119800 -7.5100293,-4.4068519 C -7.5756648,-5.6501286 -8.8736064,-6.5699315 -10.100428,-6.4884954 C -11.327699,-6.4958500 -12.599867,-5.5553341 -12.610769,-4.2584343 C -12.702194,-2.9520479 -11.603560,-1.7387447 -10.304005,-1.6532027 C -8.7816644,-1.4265411 -6.0857470,-2.3487593 -4.8210600,-0.082342643 C -5.7633447,1.6559151 -7.4350844,1.6607341 -8.9465707,1.5737277 C -10.201445,1.5014928 -11.708664,1.8611256 -12.307219,3.0945882 C -12.885586,4.2766744 -12.318421,5.9591904 -10.990470,6.3210002 C -9.6502788,6.8128279 -7.8098011,6.1912892 -7.4910978,4.6502760 C -7.2454393,3.4624530 -8.0864637,2.9043186 -7.7636052,2.4731223 C -7.5199917,2.1477623 -5.9728246,2.3362771 -3.2164999,1.0982979 L 5.6763468,4.2330688 C 6.8000164,4.5467672 8.1730685,4.5362646 9.1684433,3.4313614 L -0.051640930,-0.053722219 L 9.0898857,-3.6061018 z M -9.2179159,-5.5066058 C -7.9233569,-4.7838060 -8.0290767,-2.8230356 -9.3743431,-2.4433169 C -10.590861,-2.0196559 -12.145370,-3.2022863 -11.757521,-4.5207817 C -11.530373,-5.6026336 -10.104134,-6.0014137 -9.2179159,-5.5066058 z M -9.1616516,2.5107591 C -7.8108215,3.0096239 -8.0402087,5.2951947 -9.4138723,5.6023681 C -10.324932,5.9187072 -11.627422,5.4635705 -11.719569,4.3902287 C -11.897178,3.0851737 -10.363484,1.9060805 -9.1616516,2.5107591 z " />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInM"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path26226"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(-0.4)" />
+    </marker>
+    <linearGradient
+       id="linearGradient16061">
+      <stop
+         id="stop16063"
+         offset="0"
+         style="stop-color:#dbbdaa;stop-opacity:1;" />
+      <stop
+         id="stop16065"
+         offset="1.0000000"
+         style="stop-color:#b6a393;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient14537"
+       inkscape:collect="always">
+      <stop
+         id="stop14539"
+         offset="0"
+         style="stop-color:#edeaae;stop-opacity:1;" />
+      <stop
+         id="stop14541"
+         offset="1"
+         style="stop-color:#edeaae;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12961">
+      <stop
+         id="stop12963"
+         offset="0.00000000"
+         style="stop-color:#ebebba;stop-opacity:1.0000000;" />
+      <stop
+         id="stop12965"
+         offset="1.0000000"
+         style="stop-color:#e0d17c;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9057">
+      <stop
+         id="stop9059"
+         offset="0.00000000"
+         style="stop-color:#988e7b;stop-opacity:1.0000000;" />
+      <stop
+         id="stop9061"
+         offset="1.0000000"
+         style="stop-color:#6b6b48;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8275">
+      <stop
+         id="stop8277"
+         offset="0.00000000"
+         style="stop-color:#988e7b;stop-opacity:1.0000000;" />
+      <stop
+         id="stop8279"
+         offset="1.0000000"
+         style="stop-color:#614d3a;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2065">
+      <stop
+         id="stop2067"
+         offset="0"
+         style="stop-color:#696a56;stop-opacity:1;" />
+      <stop
+         id="stop2069"
+         offset="1.0000000"
+         style="stop-color:#edefc2;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <radialGradient
+       r="244.61902"
+       fy="208.29945"
+       fx="413.80341"
+       cy="208.29945"
+       cx="413.80341"
+       gradientTransform="matrix(0.901475,0.000000,0.000000,1.109293,123.9726,-59.40816)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient13768"
+       xlink:href="#linearGradient12961"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="263.39355"
+       fy="405.48950"
+       fx="560.22748"
+       cy="405.48950"
+       cx="560.22748"
+       gradientTransform="scale(1.016901,0.983380)"
+       id="radialGradient14543"
+       xlink:href="#linearGradient14537"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="452.61730"
+       x2="800.52667"
+       y1="452.61730"
+       x1="615.54516"
+       gradientTransform="scale(0.805817,1.240976)"
+       id="linearGradient16067"
+       xlink:href="#linearGradient16061"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-y="-4"
+     inkscape:window-x="-4"
+     inkscape:window-height="808"
+     inkscape:window-width="1152"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="335.75523"
+     inkscape:cx="526.18109"
+     inkscape:zoom="0.84532276"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         id="Work6"
+         rdf:about="">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+           id="type9" />
+        <dc:title
+           id="title27196">A kto tobie broni dostępu do Jabbera</dc:title>
+        <dc:date
+           id="date27198">20-07-2005</dc:date>
+        <dc:creator
+           id="creator27200">
+          <cc:Agent
+             id="Agent27202">
+            <dc:title
+               id="title27204">JID michalus@jabber.autocom.pl</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher
+           id="publisher27206">
+          <cc:Agent
+             id="Agent27208">
+            <dc:title
+               id="title27210">www.tvknet.pl/michalus/jabber</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       id="path12137"
+       d="M 741.48828,233.97095 C 736.45030,326.16670 685.04498,412.86410 610.83236,466.67360 C 588.12530,491.86768 543.05245,486.07111 524.65226,458.60447 C 451.68329,400.58185 399.82829,309.17609 406.00624,214.13122 C 414.19402,123.48741 510.73271,52.723589 599.64312,71.760239 C 676.71434,83.048899 745.21054,153.90610 741.48828,233.97095 z "
+       style="fill:url(#radialGradient13768);fill-opacity:1.0000000;fill-rule:nonzero;stroke:#908239;stroke-width:2.0324302;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.00000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="cssscssscsscssc"
+       id="path12979"
+       d="M 644.34219,544.57250 C 644.34219,562.90005 642.03676,580.36435 637.86845,596.25155 C 633.70013,612.13875 636.21146,626.44885 628.75996,638.46801 C 621.30844,650.48717 612.43662,660.21537 602.58706,666.93880 C 592.73748,673.66222 581.91015,675.72989 570.54764,675.72989 C 559.18513,675.72989 548.35781,673.66222 538.50823,666.93880 C 528.65866,660.21537 519.78684,650.48717 512.33533,638.46801 C 504.88383,626.44885 507.39516,612.13875 503.22684,596.25155 C 499.05853,580.36435 496.75309,562.90005 496.75309,544.57250 C 496.75309,526.24494 499.05853,508.78064 503.22684,492.89344 C 507.39516,477.00625 504.88383,462.69614 512.33533,450.67698 C 519.78684,438.65783 545.85420,466.24613 570.54764,466.24613 C 596.19329,466.24613 621.30844,438.65783 628.75996,450.67698 C 636.21146,462.69614 633.70013,477.00625 637.86845,492.89344 C 642.03676,508.78064 644.34219,526.24494 644.34219,544.57250 z "
+       style="fill:url(#linearGradient16067);fill-opacity:1.0;fill-rule:nonzero;stroke:#908239;stroke-width:1.4722179;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.00000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccccscsc"
+       id="path13770"
+       d="M 576.93750,144.31250 C 508.31967,144.31250 445.62932,168.54393 397.75000,208.40625 C 398.01468,215.27801 398.31250,222.16210 398.31250,229.09375 C 398.31250,246.34878 399.12815,264.37506 405.40625,280.50000 C 409.02850,289.80352 415.22166,298.33821 418.40625,308.56250 C 421.46309,318.37665 425.92764,330.40782 425.50000,337.78125 C 423.39738,345.05106 421.35689,346.16386 420.78125,354.12500 C 420.56706,357.08723 416.79065,370.05783 420.78125,374.00000 C 423.75860,376.94121 437.66873,388.42725 438.53125,392.68750 C 440.97228,404.74453 444.98011,414.67489 436.15625,427.75000 C 429.10294,438.20154 412.94591,469.81250 401.84375,469.81250 C 394.74587,469.81250 387.66039,469.81250 380.56250,469.81250 C 370.70433,469.81250 360.82692,469.81250 350.96875,469.81250 C 343.55473,469.81250 335.89232,469.29089 328.50000,469.81250 C 323.79964,470.14416 319.12129,470.27683 314.37500,470.56250 C 345.74669,580.39965 451.43309,661.28124 576.93750,661.28125 C 652.03308,661.28125 819.41903,658.36002 868.66077,611.57803 C 917.90250,564.79604 948.37034,500.17885 948.37033,428.83806 C 948.37033,357.49727 917.90249,292.87227 868.66076,246.08247 C 819.41902,199.29266 652.03307,144.31250 576.93750,144.31250 z "
+       style="fill:url(#radialGradient14543);fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.00000000;stroke-opacity:1.0000000" />
+    <path
+       id="path12976"
+       d="M 406.52431,251.17489 C 400.30596,252.70747 394.17749,254.46277 388.30556,256.64364 C 369.97764,263.45076 353.48371,273.31862 339.61806,285.48739 C 325.75243,297.65615 314.53063,312.12120 306.77431,328.20614 C 299.01797,344.29109 294.71181,361.99419 294.71181,380.54989 C 294.71181,399.10556 299.01796,449.24620 306.77431,465.33114 C 314.53064,481.41608 381.43993,473.44364 395.30556,485.61239 C 409.17119,497.78116 428.68976,533.70473 505.68056,566.14364 C 534.85387,578.43538 716.51241,558.22465 712.61806,534.79989 C 709.90096,518.45630 558.70338,537.04742 564.21181,529.89364 C 569.72026,522.73987 752.47046,526.03151 745.46181,499.58114 C 738.00263,471.43043 557.38853,495.58165 559.43056,486.83114 C 561.47258,478.08064 764.08280,485.83602 757.49306,464.73739 C 755.84563,437.72837 561.47258,446.39413 559.43056,437.64364 C 557.38853,428.89314 735.82068,452.02015 745.46181,429.89364 C 755.89575,405.94764 569.72026,396.73490 564.21181,389.58114 C 558.70338,382.42737 712.24686,413.68014 712.61806,394.64364 C 712.88649,380.87807 650.88602,364.09748 597.43056,354.64364 L 502.39931,354.64364 C 417.44193,379.38937 416.91824,369.54656 428.99306,335.79989 C 417.07132,308.91531 409.16895,280.43873 406.52431,251.17489 z "
+       style="fill:#db8169;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#b51515;stroke-width:1.0000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.00000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       id="path23017"
+       d="M 300.28119,649.26031 C 314.87128,603.51841 329.46136,557.77651 344.05145,512.03461 C 447.47248,628.24967 633.43547,665.23687 770.25918,587.93622 C 827.98114,553.42460 850.92704,468.55397 811.37823,412.27571 C 779.57504,361.90830 720.20210,340.11401 665.11070,326.14046 C 589.40532,306.63297 507.57991,309.92143 434.33188,337.69324"
+       style="stroke-miterlimit:1.0000000;stroke-dasharray:1.0000000,4.0000000;stroke-opacity:1.0000000;stroke-linejoin:miter;stroke-linecap:butt;stroke-width:1.0000000;stroke:#d09a9b;fill-rule:evenodd;fill-opacity:0.75000000;fill:none;stroke-dashoffset:1.0000000;marker-mid:none" />
+    <text
+       transform="translate(-6.000000,-10.00000)"
+       sodipodi:linespacing="100%"
+       id="text18429"
+       style="font-size:60.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#b51515;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><textPath
+         id="textPath23019"
+         xlink:href="#path23017"><tspan
+   style="font-size:60.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+   id="tspan18431">A kto tobie broni dostępu do Jabbera?</tspan></textPath></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text26327"
+       y="556.00067"
+       x="327.68549"
+       style="font-size:20.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans;text-anchor:start;writing-mode:lr-tb"
+       xml:space="preserve"><tspan
+         y="556.00067"
+         x="327.68549"
+         id="tspan26329"
+         sodipodi:role="line">   A</tspan><tspan
+         y="576.00067"
+         x="327.68549"
+         id="tspan26331"
+         sodipodi:role="line">  kto</tspan><tspan
+         y="596.00067"
+         x="327.68549"
+         id="tspan26333"
+         sodipodi:role="line"> tobie</tspan><tspan
+         y="616.00067"
+         x="327.68549"
+         id="tspan26335"
+         sodipodi:role="line">broni dostępu</tspan><tspan
+         y="636.00067"
+         x="327.68549"
+         id="tspan26337"
+         sodipodi:role="line">do Jabbera?</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,217 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: white;
+	color: black;
+	margin: 0 0;
+	padding: 0 0;
+	margin: 5em 5em;
+}
+
+#content {	
+}
+
+h1, h2, h3, h4 {
+	font-family:        'Trebuchet MS', 'Arial', 'Tahoma', sans-serif;
+	font-size:          1.5em;
+	text-transform:     uppercase;
+	color:              #202020;
+	padding-bottom:     0em;
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 1.8em;	
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+
+p {
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	line-height: 1.33em;
+	font-size: 0.95em;
+	margin-left: 3em;
+	margin-right: 0.75em;
+	text-align: justify;
+}
+
+.small {
+	font-size: 0.8em;
+	line-height: 1.3em;
+}
+
+.small a {
+	font-size: 1em;
+}
+
+img {
+	padding: 0.2em 0.2em;
+	margin: 0.2em 0.2em;
+	border: 0;
+}
+
+.button {
+	padding: 0 0;
+	margin: 3px 3px;
+	vertical-align: middle;
+}
+
+code {
+	font-size: 0.9em;	
+	background-color: #EDEDD3;
+	font-family: courier;
+	border-color: #EDEDD3;	
+	padding-left: 0.45em;
+	padding-right: 0.45em;
+}
+
+.cytat {
+	padding: 0.33em 6em 0.33em 2em;
+	border-left: 1px dashed #E7E7E7;
+}
+
+.rightbox {
+	width: 225px;
+	float: right;
+	padding: 0.2em 0 0.1em 0.2em;
+	border-left: 1px solid #E7E7E7;
+	margin: 0.25em 0 0.5em 1em;
+	font-size: 0.75em;
+	line-height: 0.8em;
+}
+
+.rightbox a {
+	font-size: 1em;
+}
+
+.rightbox p {
+	margin-left: 1em;
+	text-align: left;
+}
+
+.rightbox h1 {
+	font-size: 1em;	
+	margin-left: 0.5em;
+}
+
+a {
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+  text-decoration: none;
+}
+
+a[href^="http://"] {
+  background: transparent url(extras/external.gif) right no-repeat;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+a:hover {
+	color: #0000FF;
+}
+
+a:visited {
+	color: #990099;
+}
+
+a:active {
+	color: #990099;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, 
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited {
+	color: #000000;
+}
+
+ul {
+	line-height: 1.5em;
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	list-style-image: url("extras/neutral.png");	
+	font-size: 0.95em;
+	margin-left: 20px;
+}
+
+.plus {
+	list-style-image: url("extras/plus.png");
+}
+
+.minus {
+	list-style-image: url("extras/minus.png");
+}
+
+.litery {
+	list-style-type: upper-alpha;
+	list-style-image: none;
+}
+
+.cyfry {
+	list-style-type: decimal;
+	list-style-image: none;
+}
+
+.galeria {	
+	cursor: default;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.galeria li {
+	display: inline;
+}
+
+#latajacy {
+	float: right;
+}
+
+#stopka {	
+	margin-top: 10em;
+	padding-top: 0.5em;
+	border-top: 1px solid #EDEDD3;
+	font-size: 0.70em;
+	line-height: 1.8em;
+}
+
+#stopka a, #stopka code {
+	font-size: 1em;
+}
+
+#stat {
+	margin-top: 4em;
+	margin-bottom: 2em;
+	float: right;
+}
+
+#naglowek {
+	background-image: url("extras/jabber_bulb.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding: 0.33em 0 1em 175px;
+}
+
+dl {
+	margin-left: 2.3em;
+}
+
+dt {
+}
+
+dd {
+	font-size: 0.7em;
+	margin-bottom: 0.8em;
+}
+
+.delicious-posts h2 {
+	font-size: 1em;
+	text-transform: none;
+}
