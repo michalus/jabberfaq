@@ -339,8 +339,8 @@
             <a href="#szerzej">Klienty szerzej opisane na tej stronie</a>
 
             <ul>
-              <li><a href="#psi">Psi</a>; <a href="#psi_pgp">Psi i GPG</a>;
-              <a href="psi/index.html">Psi krok po kroku</a>;</li>
+              <li><a href="#psi">Psi</a>; <a href="psi/index.html">Psi krok po
+              kroku</a>;</li>
 
               <li><a href="#jajc">Jajc</a>; <a href="jajc/index.html">Jajc krok
               po kroku</a>;</li>
@@ -981,7 +981,7 @@
     </ul>
 
     <h4 id="enterprise"><a href="#enterprise">Enterprise Instant
-    Messaging</a></h4>
+    Messaging</a></h4><!-- TODO: ta firma nie jest już dobrym przykładem, do poprawki -->
 
     <p>Poniższy kawałek to krótki opis <a href=
     "http://www.jivesoftware.com/products/">produktów firmy Jive</a>. Dzięki
@@ -1236,73 +1236,6 @@
     <p>Więcej zrzutów ekranu można zobaczyć w <a href="psi/index.html">sekcji
     Psi krok po kroku</a>.</p>
 
-    <h4 id="psi_pgp"><a href="#psi_pgp">6.1.1 Psi i GPG</a></h4>
-
-    <div class="rightbox">
-      <h1>GPG</h1>
-
-      <p><a href="http://pl.wikipedia.org/wiki/GPG">GPG</a>, skrót od ang.
-      <i>GNU Privacy Guard</i>, to darmowy zamiennik komercyjnego <a href=
-      "http://pl.wikipedia.org/wiki/PGP">PGP</a>, programu służącego do
-      profesjonalnego szyfrowania danych.</p>
-    </div>
-
-    <p>Aby korzystać z udogodnień Open <acronym title=
-    "Pretty Good Privacy">PGP</acronym> musimy odwiedzić <a href=
-    "http://www.gnupg.org/">http://www.gnupg.org/</a> i zaopatrzyć się w sam
-    program, który jest oczywiście darmowy. Można doinstalować graficzną
-    nakładkę taką jak np.: GPGshell z <a href=
-    "http://www.jumaros.de/rsoft/index.html">http://www.jumaros.de/rsoft/index.html</a>
-    lub od razu przejść do rzeczy i zacząć działać prosto z konsoli. Na
-    początek generowanie własnych kluczy:</p>
-
-    <p class="cytat"><code>gpg --gen-key</code></p>
-
-    <p>Przy problemie z generowaniem kluczy, oraz braku czasu na czytanie
-    dokumentacji, dodam że program dla Windowsa domyślnie powinien znajdować
-    się w katalogu <code>C:\gnupg</code>, a jego ścieżka dostępu ustawiona w
-    <code>PATH</code>. Gdy to nam nie wystarcza, należy popatrzeć chwilkę na
-    rejestr. Jeżeli nie masz pojęcia nic o rejestrze to lepiej tam nic nie
-    ruszać, warto dodać że wszelkie zmiany robi się na własną odpowiedzialność
-    i mogą one mieć przy dużym pechu niekorzystny wpływ na nasz system.</p>
-
-    <p>Jeżeli chcemy zmienić domyślne położenie programu należy zmienić wpisy w
-    gałęzi<br>
-    <code>HKEY_LOCAL_MACHINE/Software/GNU/GNUPG/</code> w kluczach
-    <code>gpgProgram</code> oraz <code>HomeDir</code>.</p>
-
-    <p>Jeżeli chcemy aby każdy użytkownik miał osobno miejsce dla swoich
-    kluczy, należy dodać do gałęzi<br>
-    <code>HKEY_CURRENT_USER/Software/GNU/GNUPG/</code> wpis
-    <code>HomeDir</code> o wartości np.: <code>C:\klucze_anety\</code>.
-    Najlepiej oczywiście podpiąć tam swój folder <i>Moje Dokumenty</i>.</p>
-
-    <p>Dla Linuksa wszelkie manipulacje z położeniem samego programu i kluczy
-    poszczególnych użytkowników nie są potrzebne. Może w nowszych wersjach GPG
-    dla systemu Windows problem ten zostanie jakoś rozwiązany.</p>
-
-    <p>Potem upubliczniamy swój klucz publiczny wygenerowany za pomocą
-    polecenia:</p>
-
-    <p class="cytat"><code>gpg --export --armor &gt;
-    moj_klucz_publiczny.asc</code></p>
-
-    <p>Przykładowy klucz publiczny może wyglądać tak jak mój: (<a href=
-    "http://malecki.prv.pl/michalus.asc">mój klucz publiczny</a>)</p>
-
-    <p>A klucze naszych znajomych importujemy prawie analogicznie komendą:</p>
-
-    <p class="cytat"><code>gpg --import klucz_kolegi.asc</code></p>
-
-    <p>Samo ustawienie Psi ogranicza się do kilku kliknięć w ustawieniach konta
-    i wyborze naszego klucza, a potem dla każdego kontaktu prawym klawiszem z
-    menu podręcznego wybieramy odpowiedni klucz publiczny danej osoby, który
-    wcześniej zaimportowaliśmy. Podczas rozmowy szyfrujemy nasze wiadomości
-    zamykając ikonkę kłódki. Więcej informacji można doczytać z FAQ samego Open
-    <acronym title="Pretty Good Privacy">PGP</acronym> oraz w dokumentacji Psi
-    na <a href=
-    "http://psi.affinix.com/psi_docs/">http://psi.affinix.com/psi_docs/</a>.</p>
-
     <h3 id="jajc"><a href="#jajc">6.2 Jajc</a></h3>
 
     <p>Rozbudowany klient Jabbera. Ciekawostką jest obsługa skinów Windowsa XP,
@@ -1312,9 +1245,8 @@
     <acronym title="Gadu Gadu">GG</acronym> statusy offline. Jest możliwość
     używania <code><acronym title="Pretty Good Privacy">PGP</acronym></code>.
     Zakładanie konta oraz używanie Jajca krok po kroku opisane są na <a href=
-    "http://jabber.itn.pl/docs/jajc_tutorial/">http://jabber.itn.pl/docs/jajc_tutorial/</a>
-    oraz <a href="http://jajc.pjwstk.edu.pl/">http://jajc.pjwstk.edu.pl/</a>,
-    strona domowa natomiast tutaj <a href=
+    "http://jajc.pjwstk.edu.pl/">http://jajc.pjwstk.edu.pl/</a>, strona domowa
+    jest natomiast tutaj <a href=
     "http://jajc.ksn.ru/">http://jajc.ksn.ru/</a>.</p>
 
     <p>Aby szyfrować nasze wiadomości <acronym title=
@@ -1681,12 +1613,6 @@
     np.: wklejanie obrazków w okno rozmowy z użytkownikiem sieci Gadu-Gadu.
     Strona domowa Konnekta to <a href=
     "http://www.konnekt.info/">http://www.konnekt.info/</a>.</p>
-
-    <p>Jeżeli masz problem z instalacją i konfiguracją koniecznie zerknij na
-    <a href="http://konnekt.info/open.php?inc=help">pomoc</a> dostępną na
-    stronie domowej Konnekta lub na poradnik <a href=
-    "http://faq.konnekt.info/">"Jak szybko i przyjemnie zainstalować i
-    skonfigurować Konnekta"</a>.</p>
 
     <p>Komunikator aktualnie nie jest już czynnie rozwijany, chociaż dalej ma
     dużą rzeszę zwolenników.</p>
@@ -2472,12 +2398,13 @@
     "Gadu Gadu">GG</acronym> na inny itd. Stajemy wtedy przed obliczem ręcznego
     przepisywania kontaktów, podczas gdy logiczne wydawałoby się podmienienie
     tylko części ich <acronym title="Jabber Identifier">JID</acronym>. Właśnie
-    w takiej sytuacji przydaje nam się Jabber Roster Utility. Gdy wejdziemy na
-    stronę <a href=
-    "http://jru.jabberstudio.org/">http://jru.jabberstudio.org/</a> możemy
-    podłączyć się do naszego konta Jabberowego i otrzymać trzymaną przez serwer
-    listę kontaktów w postaci tekstowej. Przykładowo może to wyglądać tak jak u
-    mnie.</p>
+    w takiej sytuacji przydaje nam się <a href=
+    "http://sourceforge.net/projects/jabber-jru/">Jabber Roster Utility</a>.
+    Działajacą stronę łatwo wyszukać <a href=
+    "http://www.google.pl/search?q=jabber+roster+utility">w Google</a>. Na
+    stronie z działającym JRU możemy podłączyć się do naszego konta na każdym
+    serwerze XMPP/Jabber i pobrać trzymaną przez serwer listę kontaktów w
+    postaci tekstowej. Przykładowo może to wyglądać tak jak u mnie.</p>
 
     <p class="cytat"><span class="small">+,login@jabberpl.org,,grupa jabber<br>
     +,123456@gg.chrome.pl,Jan Kowalski,grupa gg<br>
