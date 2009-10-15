@@ -8,9 +8,17 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <meta http-equiv="content-language" content="pl">
+  <link rel="alternate" href="http://identi.ca/jabberfaq/all/rss" type=
+  "application/rdf+xml" title="Feed for friends of jabberfaq (RSS 1.0)">
+  <link rel="alternate" href=
+  "https://identi.ca/api/statuses/friends_timeline/jabberfaq.rss" type=
+  "application/rss+xml" title="Feed for friends of jabberfaq (RSS 2.0)">
+  <link rel="alternate" href=
+  "https://identi.ca/api/statuses/friends_timeline/jabberfaq.atom" type=
+  "application/atom+xml" title="Feed for friends of jabberfaq (Atom)">
   <meta name="robots" content="index, follow">
   <meta name="Keywords" content=
-  "Jabber, FAQ, XMPP, Gadu-Gadu, GG, komunikator, IM">
+  "Jabber, FAQ, XMPP, komunikator, IM, instant messenger">
   <meta name="Description" content=
   "Jabber FAQ czyli Jabber i XMPP krok po kroku. Co to jest? Jak zainstalować? Jak używać? Większość informacji zebranych w jednym miejscu.">
   <meta name="Author" content="Jabber ID: michalus (na) jabster.pl">
@@ -55,13 +63,17 @@
         <li><a href="#stopka">Autor i licencja tego dokumentu</a></li>
       </ul>
 
-      <p>Zmiany treści można śledzić na <a href=
-      "http://github.com/michalus/jabberfaq/tree/master">stronie JabberFAQ w
-      serwisie GitHub</a>.</p>
-
       <p>Chcesz podlinkować tą stronę? Możesz wykorzystać jeden z bannerów -
       <a href="banner/">lista banerów</a>. Masz swój ładniejszy banner, jeżeli
       chcesz możesz go mi podesłać.</p>
+
+      <p>Chcesz być zawsze na bieżąco - <a href=
+      "http://identi.ca/jabberfaq/all">śledź JabberFAQ</a> w serwisie
+      Identi.ca!</p>
+
+      <p>Chcesz śledzić zmiany w treści - <a href=
+      "http://github.com/michalus/jabberfaq/tree/master">sprawdź repozytorium w
+      serwisie GitHub</a>.</p>
     </div>
 
     <h2 id="slowawstepu"><a href="#slowawstepu">Słowa wstępu</a></h2>
@@ -105,51 +117,64 @@
     sposobie komunikacji. O zaletach rozwiązania docenionego przez ekspertów,
     oraz jak prosto przesiąść się na Jabbera, można przeczytać poniżej.</p>
 
-    <p>Ostatnie nowości w świecie Jabbera można przeczytać w kronikach Jabbera
-    na <a href=
-    "http://www.jabberpl.org/SlowoPisane/KronikiJabbera">JabberPL.org</a>
-    (przetłumaczone) lub w oryginalnej wersji na stronie <a href=
-    "http://www.jabber.org/journal/">jabber.org</a>. Można się tam dowiedzieć,
-    że duże firmy takie jak Google, Apple, BellSouth, FedEx, EDS, France
-    Telecom, HP, Oracle, Orange, Portugal Telecom, Sun, wiele banków związanych
-    z Wall Street i liczne amerykańskie agencje rządowe wykorzystują już
-    otwarty standard jakim jest XMPP/Jabber. Po dołączeniu do tej listy
-    komunikatora Google Talk <a href=
-    "http://www.infoworld.com/article/05/08/26/HNgooglexmpp_1.html">spodziewane
-    jest coraz większe zainteresowanie komunikacją opartą o Jabbera</a>, a
-    nawet <a href=
-    "http://www.vnunet.com/vnunet/news/2141539/google-talk-break-open-im">poważne
-    zmiany na rynku samych komunikatorów</a> zdominowanym przez gigantów takich
-    jak AIM, MSN i Yahoo.</p>
+    <p>Ostatnie nowości z świata XMPP/Jabber można śledzić na oficjalnym
+    <a href="http://blog.xmpp.org/">blogu</a> gdzie co jakiś czas podsumowywane
+    są najciekawsze wydarzenia. Nowy standard zdobywa coraz większą popularność
+    i jest wybierany przez duże poważne koncerny oraz małe <i>garażowe</i>
+    firmy. Google rozwija swoje produkty takie jak komunikator <a href=
+    "http://pl.wikipedia.org/wiki/Google_Talk">Google Talk</a> oraz platformę
+    komunikacyjną <a href="http://pl.wikipedia.org/wiki/Google_Wave">Google
+    Wave</a>. Nokia rozwija własną platformę opartą o <a href=
+    "http://betalabs.nokia.com/betas/view/contacts-ovi">Ovi Contacts</a>, która
+    dostępna będzie na wszystkich telefonach tej firmy. A prężnie rozwijana
+    platforma mikroblogowa <a href="http://identi.ca/">Identi.ca</a>
+    wykorzystuje go jako podstawowe narzędzie wymiany informacji.</p>
 
     <h4 id="ile"><a href="#ile">Ile osób korzysta z Jabbera?</a></h4>
 
-    <p>W Polsce liczba ta była szacowana na grubo ponad milion, wliczając w to
-    także zamkniętą sieć Tlen oraz użytkowników komunikatora Wirtualnej Polski
-    Spik. (Serwer utrzymywany przez WP <i>jabber.wp.pl</i> dostępny jest dla
-    każdego, nie tylko dla użytkowników Spika.)</p>
-
-    <p>Do wspomnianych tutaj komunikatorów należałoby doliczyć jednak jeszcze
-    działające w oparciu o XMPP/Jabber serwisy WWW takie jak fotka.pl, poczta
-    gazeta.pl i rzeszę innych, nie zawsze nieświadomych używanej technologii,
+    <p>Porównując badania <a href="http://www.audyt.gemius.pl/">firmy
+    Gemius</a> z lipca 2009 zasięg komunikatorów na rynku polskim to 40% sieci
+    Gadu-Gadu oraz 5% sieci XMPP/Jabber (licząc komunikatory Spik, Tlen, Google
+    Talk, oraz wydzielone korzystające z sieci XMPP/Jabber Konnekt i AQQ). W
+    uproszczeniu zakładając 8 milionów polskich użytkowników sieci Gadu-Gadu
+    zasięg sieci XMPP/Jabber w Polsce można oszacować jako milion
     użytkowników.</p>
 
-    <p>Dla porównania z sieci Gadu Gadu korzysta szacunkowo około sześciu
-    milionów użytkowników ( <a href=
-    "http://en.wikipedia.org/wiki/Instant_messaging#User_base">zgodnie z
-    artykułem</a>). Na świecie liczba użytkowników Jabbera szacowana jest na
-    <a href=
-    "http://www.jabber.org/about/generalfaq.shtml#id2780706">kilkadziesiąt do
-    stu milionów użytkowników</a>. Jeżeli chcesz poznać dokładniejsze liczby
-    szacujące liczebność poszczególnych sieci możesz zajrzeć na <a href=
-    "http://en.wikipedia.org/wiki/Instant_messaging#User_base">stronę Wikipedii
-    opisującą komunikacje błyskawiczną</a>.</p>
+    <p>Na świecie liczba użytkowników Jabbera szacowana jest na <a href=
+    "http://en.wikipedia.org/wiki/Usage_share_of_instant_messaging_clients">ponad
+    dziesięć milionów użytkowników</a>. Szacunki sięgają nawet 50 milionów
+    użytkowników. Zdecentralizowana struktura sieci i mnogość rozwiązań
+    opartych na tym protokole utrudnia podanie konkretnej liczby. Analizując
+    dane na przestrzeni ostatnich lat widać wzrost zainteresowania i udział
+    większy od najpopularniejszych kiedyś komunikatorów AIM, MSN czy Yahoo.</p>
 
     <ul>
-      <li><a href="http://audyt.gemius.pl/aplikacje_wyniki.php?id=27">Polskie
-      dane dostępne są także na gemius.pl</a> - chociaż wydaje mi się, że w
-      przypadku XMPP/Jabber mogą być one zaniżone.</li>
+      <li>309 milionów użytkowników sieci Skype</li>
+
+      <li>221 milionów aktywnych użytkowników sieci <a href=
+      "http://en.wikipedia.org/wiki/QQ">QQ</a></li>
+
+      <li>53 miliony aktywnych użytkowników sieci AIM, 100 milionów wszystkich
+      zarejestrowanych</li>
+
+      <li>Między 40 a 50 milionów użytkowników sieci XMPP/Jabber</li>
+
+      <li>27 milionów aktywnych użytkowników sieci MSN, 155 milionów wszystkich
+      zarejestrowanych</li>
+
+      <li>22 milionów aktywnych użytkowników sieci Yahoo</li>
+
+      <li>około <a href="http://www.di.com.pl/news/13858,1.html">6 milionów
+      aktywnych</a> użytkowników sieci GG</li>
+
+      <li>4 miliony aktywnych użytkowników sieci ICQ</li>
     </ul>
+
+    <p><span class="small">Powyższe dane pochodzą z <a href=
+    "http://en.wikipedia.org/wiki/Usage_share_of_instant_messaging_clients">Wikipedii</a>
+    i są jedynie pewnym odniesieniem, a nie dokładnymi danymi. Dokładniejszych
+    i aktualniejszych danych należy poszukać w Internecie. Powyższe dane
+    pochodzą z października 2009.</span></p>
 
     <h4 id="niechcemisietegoczytac"><a href="#niechcemisietegoczytac">Nie chcę
     mi się tego czytać! To jest trudne!</a></h4>
@@ -162,9 +187,9 @@
     dostępnych klientów</a> Jabbera (programów umożliwiających korzystanie z
     tej sieci), popatrz jak wyglądają na screenach, wybierz tego
     najładniejszego i zobacz jak prosto się go używa. To naprawdę nic trudnego.
-    Jest tak proste jak używanie Gadu-Gadu czy Tlen. Potrzebna jest tylko
-    chwilka aby się przyzwyczaić. Jeżeli nasuną się jakieś pytania wróć później
-    do tekstu.</p>
+    Używanie komunikatora w sieci XMPP/Jabber jest tak samo proste jak każdego
+    innego. Potrzebna jest tylko chwilka aby się przyzwyczaić. Jeżeli nasuną
+    się jakieś pytania wróć później do tekstu.</p>
 
     <p>Przesiadka na Jabbera naprawdę nie trwa długo, nie potrwa więcej niż
     kilka - kilkanaście minut. Jedyne co trzeba zrobić to</p>
@@ -363,41 +388,37 @@
           serwera</a></li>
         </ul>
       </li>
-
-      <li><a href="#podsumowanie">Podsumowanie.</a></li>
     </ul>
 
     <h2 id="dodatki"><a href="#dodatki">Dodatki</a></h2>
 
     <ul class="litery">
-      <li><a href="#mapa">Mapa użytkowników Jabbera.</a></li>
+      <li><a href="#mapa">Mapa użytkowników Jabbera</a></li>
 
       <li><a href="#emoticony">Emotikony <acronym title=
-      "Gadu Gadu">GG</acronym>.</a></li>
+      "Gadu Gadu">GG</acronym></a></li>
 
       <li><a href="#importgg">Import listy kontaktów <acronym title=
-      "Gadu Gadu">GG</acronym>.</a></li>
+      "Gadu Gadu">GG</acronym></a></li>
 
-      <li><a href="#blog">Jogger czyli blog wprost z listy kontaktów.</a></li>
+      <li><a href="#blog">Jogger czyli blog wprost z listy kontaktów</a></li>
 
-      <li><a href="#pogoda">Transport pogody.</a></li>
+      <li><a href="#pogoda">Transport pogody</a></li>
 
-      <li><a href="#ztm">Rozkład jazdy warszawskiego ZTM.</a></li>
+      <li><a href="#ztm">Rozkład jazdy warszawskiego ZTM</a></li>
 
       <li><a href="#slownik">Słownik polsko-angielski,
-      angielsko-polski.</a></li>
-
-      <li><a href="#cert">Psi oraz certyfikaty serwerów.</a></li>
+      angielsko-polski</a></li>
 
       <li><a href="#wikipedia">Wikipedia na <acronym title=
-      "liście kontaktów">rosterze</acronym>.</a></li>
+      "liście kontaktów">rosterze</acronym></a></li>
 
       <li><a href="#tv">Program TV</a></li>
 
-      <li><a href="#tlen">Jabber a Tlen.</a></li>
+      <li><a href="#tlen">Jabber a Tlen</a></li>
 
       <li><a href="#jabber_roster_utility">Szybkie zarządzanie kontaktami na
-      serwerze (Jabber Roster Utility).</a></li>
+      serwerze (Jabber Roster Utility)</a></li>
 
       <li><a href="#zasob_i_priorytet">Zasoby, priorytety, cała prawda</a></li>
 
@@ -408,9 +429,9 @@
       <li><a href="#xep0070">Logowanie za pomocą komunikatora</a>
       (XEP-0070)</li>
 
-      <li><a href="#linki">Inne użyteczne linki.</a></li>
+      <li><a href="#linki">Inne użyteczne linki</a></li>
 
-      <li><a href="#propaganda">Linki propagandowe.</a></li>
+      <li><a href="#propaganda">Linki propagandowe</a></li>
     </ul>
 
     <h2 id="coto"><a href="#coto">1. Co to do licha jest?</a></h2>
@@ -863,10 +884,9 @@
     Jabberowi</p>
 
     <ul>
-      <li><a href="http://www.jabber.org/user/userguide/">Jabber.org user
-      guide</a></li>
+      <li><a href="http://www.jabber.org/">Oficjalna strona Jabber.org</a></li>
 
-      <li><a href="http://www.jabberpl.org/Witamy">JabberPL.org</a></li>
+      <li><a href="http://xmpp.org/">Oficjalna strona XMPP.org</a></li>
     </ul>
 
     <h2 id="serwer"><a href="#serwer">5. Serwer</a></h2>
@@ -880,37 +900,21 @@
     </div>
 
     <p>Najważniejszy jest wybór odpowiedniego serwera. Dalsze poczynania z
-    Jabberem zależą wyłącznie od niego. Oczywiście nic nie stoi na przeszkodzie
-    aby mieć dwa konta i używać drugiego na wypadek wszelkich awarii na
-    serwerze pierwszego. Nie można powiedzieć popularnego stwierdzenia w sieci
-    <acronym title="Gadu Gadu">GG</acronym> typu "Jabber mi nie działa" - sieć
-    Jabbera działa bardzo dobrze, to jedynie twój serwer może mieć problemy.
-    Odpowiedni wybór uchroni nas od wszelkich komplikacji.</p>
+    XMPP/Jabber zależą wyłącznie od niego. Oczywiście nic nie stoi na
+    przeszkodzie aby mieć dwa lub więcej kont i używać ich zamiennie. Nie można
+    powiedzieć "<i>Jabber mi nie działa</i>" - sieć XMPP/Jabber działa bardzo
+    dobrze, to jedynie twój serwer może mieć problemy. Odpowiedni wybór uchroni
+    nas od wszelkich komplikacji.</p>
 
     <p>Czyli powtórzę jeszcze raz aby bezproblemowo korzystać z sieci Jabbera
     trzeba <u>koniecznie wybrać stabilny i godny zaufania serwer</u>. Reguły
     nie ma, może to być jeden z wielkich czołowych serwerów publicznych, ale
     może lepiej wybrać mały osiedlowy prowadzony przez znajomego admina.</p>
 
-    <p>Jak każdy pewnie wie istnieją zestawienia pokazujące który serwer sieci
-    Gadu-Gadu akurat działa, można to sprawdzić przykładowo na stronach
-    <a href="http://monitor.wiadomosc.info/">serwisu wiadomosc.info</a> czy
-    stronach <a href="http://www.piotrm2.piasta.pl/index.php?page_id=143">mini
-    wortalu Gadu-Gadu</a>. Tak samo, można zerknąć na <a href=
-    "http://www.jabberes.org/servers/">zestawienie publicznych serwerów
-    Jabbera</a>. Można odczytać procent czasu gdy serwer był widoczny w sieci
-    oraz oferowane przez niego usługi.</p>
-
-    <p>Najaktualniejsza lista publicznych, raczej polskich, serwerów Jabbera
-    jest dostępna pod adresem <a href=
-    "http://www.jabberpl.org/Serwery/Spis">http://www.jabberpl.org/Serwery/Spis</a>.
-    Flagowym serwerem Jabbera w Polsce jest <a href=
-    "http://serwer.jabberpl.org/">serwer prowadzony przez ludzi z
-    JabberPL.org</a>. Z moich doświadczeń wynika, że przez swoją popularność i
-    niekomercyjny charakter bywa czasem zawodny. Wybierając serwer prowadzony
-    przez hobbystów otrzymamy serwer o największej liczbie nowych rozwiązań,
-    ale bez wsparcia finansowego będzie on prawdopodobnie czasem niestabilny.
-    Wybierając serwer za którym stoi firma, i pieniądze, zawsze musimy
+    <p>Wybierając serwer prowadzony przez hobbystów otrzymamy serwer o
+    największej liczbie nowych rozwiązań, ale bez wsparcia finansowego będzie
+    on prawdopodobnie czasem niestabilny. Może nawet pewnego dnia po prostu
+    zniknąć. Wybierając serwer za którym stoi firma, i pieniądze, zawsze musimy
     pamiętać, że rządzić się on może własnymi prawami i prawdopodobnie działa
     po to żeby na siebie zarobić. Trzeba wyśrodkować swoje potrzeby,
     oczekiwania i wybrać serwer najlepszy dla siebie.</p>
@@ -919,36 +923,32 @@
     <code>jabber.org</code>. Jeżeli wolimy coś krótszego to może zainteresujemy
     się serwerem <code>jid.pl</code>. Jeżeli chcemy serwer komercyjny mamy
     serwer firmowany przez Wirtualną Polskę czyli <code>jabber.wp.pl</code>.
-    Gdy chcemy założyć konto na małym amatorskim serwerze upewnijmy się, że nie
-    jest to serwer krzak, który stoi na bardzo słabej maszynie i jest gotów za
-    tydzień zniknąć z mapy Internetu. Mamy naprawdę duży wybór i należy ten
-    fakt wykorzystać. W ostateczności możemy samemu postawić własny serwer,
-    który, jeżeli jesteśmy wymagającym użytkownikiem, z pewnością będzie
-    najbardziej wygodnym rozwiązaniem.</p>
+    Mamy naprawdę duży wybór i należy ten fakt wykorzystać. W ostateczności
+    możemy samemu postawić własny serwer, który, jeżeli jesteśmy wymagającym
+    użytkownikiem, z pewnością będzie najbardziej wygodnym dla nas
+    rozwiązaniem.</p>
 
-    <p>Publiczne serwery Jabbera:</p>
+    <p><a href="http://xmpp.org/services/">Publiczne serwery
+    XMPP/Jabber</a></p>
 
     <ul>
       <li><a href="http://status.jabber.org/">jabber.org</a></li>
-
-      <li><a href="http://serwer.jabberpl.org/">jabberpl.org</a></li>
 
       <li><a href="http://jabber.uznam.net.pl/">jabber.uznam.net.pl</a></li>
 
       <li>jabber.piekary.net</li>
 
-      <li><a href=
-      "http://www.elektron.com.pl/4/4/">jabber.elektron.com.pl</a></li>
+      <li>jabber.elektron.com.pl</li>
 
-      <li><a href="http://www.jabster.pl/">jabster.pl</a> (konto zintegrowane z
-      <a href="http://www.google.com/a/help/intl/pl/index.html">Google
-      Apps</a>)</li>
+      <li><a href="http://www.jabster.pl/">jabster.pl</a></li>
 
       <li><a href="http://spik.wp.pl/">jabber.wp.pl</a></li>
 
       <li><a href="http://jabber.histeria.pl/">histeria.pl</a></li>
 
       <li><a href="http://jabber.gda.pl/">jabber.gda.pl</a></li>
+
+      <li><a href="http://jabber.2000-plus.pl/">jabber.2000-plus.pl</a></li>
 
       <li><a href="http://www.jabber80.com/">jabber80.com</a></li>
 
@@ -957,30 +957,23 @@
 
       <li><a href="http://kdetalk.net/">KDETalk.net</a></li>
 
+      <li><a href="http://www.ubuntu-users.com/">ubuntu-users.com</a></li>
+
       <li><a href="http://jid.pl/">jid.pl</a></li>
 
-      <li><a href="http://www.jabbim.pl/">jabbim.pl</a> (JID dostępny w kilku
-      domenach)</li>
-
-      <li><a href="http://jabber.wroc.pl/">jabber.wroc.pl</a></li>
+      <li><a href="http://www.jabbim.pl/">jabbim.pl</a></li>
     </ul>
 
     <p id="wlasnyserwer">Jeżeli dysponujemy odpowiednim komputerem, możemy
-    postawić własny serwer Jabbera, który oczywiście jest darmowy. Więcej
-    informacji na <a href=
-    "http://www.jabber.org/admin/">http://www.jabber.org/admin/</a>.</p>
+    postawić własny serwer Jabbera, który oczywiście jest darmowy.</p>
 
     <ul>
-      <li><a href="http://www.jivesoftware.com/products/wildfire/">Przykładowy
-      serwer Jabbera/XMPP</a>, jak zachwalają twórcy jest on darmowy,
-      wieloplatformowy (napisany w Javie), prosty w instalacji i z wygodnym
-      interfejsem via WWW. Możesz postawić swój serwer w kilkanaście minut tak
-      prosto jak zainstalowałeś swojego klienta. Nie musisz spędzić całego dnia
-      na jego konfiguracji.</li>
-
-      <li><a href=
-      "http://www.jabberpl.org/SlowoPisane/DokumentacjaAdministratorzy">Artykuły
-      przydatne dla administratorów</a></li>
+      <li><a href="http://en.wikipedia.org/wiki/Openfire">Przykładowy serwer
+      Jabbera/XMPP</a>, jak zachwalają twórcy jest on darmowy, wieloplatformowy
+      (napisany w Javie), prosty w instalacji i z wygodnym interfejsem via WWW.
+      Możesz postawić swój serwer w kilkanaście minut tak prosto jak
+      zainstalowałeś swojego klienta. Nie musisz spędzić całego dnia na jego
+      konfiguracji.</li>
 
       <li><a href=
       "http://en.wikipedia.org/wiki/List_of_Jabber_Server_Software">Lista
@@ -1058,18 +1051,17 @@
     (<a href=
     "http://www.google.pl/search?q=%22jabber+client%22&amp;ie=UTF-8&amp;hl=pl&amp;btnG=Szukaj+z+Google&amp;lr=">zobacz
     wyniki szukania "jabber client"</a>), albo skorzystać z pomocy strony
-    <a href=
-    "http://www.jabber.org/user/clientlist.php">http://www.jabber.org/user/clientlist.php</a>.
-    Klientów jest dużo, są one dostępne na wiele platform: Amiga, MacOSX,
-    MacOS9, J2ME RIM, J2ME, Java, PalmOS, Symbian, WinCE, Linux/Unix, Windows,
-    Przeglądarki Internetowe (WWW), PocketPC, BeOS ,Smartphone czy jako plugin
-    Mozilla.</p>
+    <a href="http://en.wikipedia.org/wiki/List_of_XMPP_client_software">z listą
+    klientów XMPP/Jabber na stronie Wikipedia</a>. Klientów jest dużo, są one
+    dostępne na wiele platform: Amiga, MacOSX, MacOS9, J2ME RIM, J2ME, Java,
+    PalmOS, Symbian, WinCE, Linux/Unix, Windows, Przeglądarki Internetowe
+    (WWW), PocketPC, BeOS, Smartphone czy jako plugin Mozilla.</p>
 
     <p id="szerzej">Klienty Jabbera szerzej opisane na tej stronie</p>
 
     <ul>
-      <li><a href="#wpkontakt">Spik</a>; komunikator portalu Wirtualna
-      Polska;</li>
+      <li><a href="#wpkontakt">Spik</a>; klient promowany przez portal
+      Wirtualna Polska;</li>
 
       <li><a href="#konnekt">Konnekt</a>; polski multikomunikator;</li>
 
@@ -1102,33 +1094,27 @@
     uwagi</p>
 
     <ul>
-      <li><a href="http://dev.null.pl/ekg2/">EKG2</a>; klient Jabbera w trybie
-      tekstowym;</li>
+      <li><a href="http://pl.wikipedia.org/wiki/EKG2">EKG2</a>; klient Jabbera
+      w trybie tekstowym;</li>
 
-      <li><a href="http://jwchat.sourceforge.net/demo.shtml">JWChat</a>; klient
-      Jabbera napisany w Java Script (<a href="images/JWChat1.png">screen1</a>
-      | <a href="images/JWChat2.png">screen2</a>);</li>
+      <li><a href="http://en.wikipedia.org/wiki/JWChat">JWChat</a>; klient
+      Jabbera napisany w Java Script;</li>
 
-      <li><a href=
-      "http://greenthumb.jabberstudio.org/applet.php">GreenThumb</a>; applet
-      Jabbera (<a href="images/greenthumb1.png">screen1</a> | <a href=
-      "images/greenthumb2.png">screen2</a> | <a href=
-      "images/greenthumb3.png">screen3</a>);</li>
-
-      <li><a href="http://jeti.jabberstudio.org/">Jeti</a>; kolejny klient
+      <li><a href="http://en.wikipedia.org/wiki/Jeti">Jeti</a>; kolejny klient
       Jabbera napisany w Javie.</li>
 
-      <li><a href="http://www.gnugadu.org/index.php?lang=pl&amp;page=news">GNU
-      Gadu</a>; linuksowy klient Jabbera;</li>
-
-      <li><a href="http://www.meebo.com/">Meebo</a>; interesujący klient na
-      stronie WWW;</li>
+      <li><a href="http://pl.wikipedia.org/wiki/Meebo">Meebo</a>; interesujący
+      klient na stronie WWW;</li>
 
       <li><a href="http://www.jbother.org/">JBother</a>; napisany w Javie więc
       dostępny na każdej platformie oraz na stronie WWW;</li>
 
       <li><a href="http://www.wengophone.com/">WengoPhone</a>; wieloplatformowy
       klient Jabbera oraz SIP</li>
+
+      <li><a href="http://betalabs.nokia.com/betas/view/contacts-ovi">Nokia Ovi
+      Contacts</a>; natywna platforma komunikacyjna Nokii dla telefonów z
+      systemem operacyjnym S60</li>
     </ul>
 
     <p id="polskieakcenty">Polskie akcenty jabberowe, czyli klienty
@@ -1137,11 +1123,14 @@
     title="polski akcent"></p>
 
     <ul>
-      <li><a href="http://spik.wp.pl/">Spik (dawny Wpkontakt)</a> (opisywany
-      szerzej <a href="#wpkontakt">niżej</a>);</li>
+      <li><a href="http://spik.wp.pl/">Spik</a> (opisywany szerzej <a href=
+      "#wpkontakt">niżej</a>);</li>
 
       <li><a href="http://www.konnekt.info/index.php">Konnekt</a> (opisany
       szerzej <a href="#konnekt">niżej</a>);</li>
+
+      <li><a href="http://www.k2t.eu/wtw/">WTW</a> nazywany przez niektórych
+      następcą Konnekta;</li>
 
       <li><a href="http://www.gnugadu.org/index.php?lang=pl&amp;page=news">Gnu
       Gadu</a>;</li>
@@ -1150,19 +1139,15 @@
       "http://komunikator.papla.pl/text.asp?file=index.html">Papla</a>;</li>
 
       <li><a href="http://www.hapi.pl/">Hapi</a>;</li>
-
-      <li><a href="http://kf.jabberstudio.org/">kf</a>;</li>
     </ul>
 
-    <p>Większa lista popularniejszych komunikatorów poniżej, to na wypadek
-    gdyby ktoś twierdził że powyższe mu się nie podobają. Pełna aktualna lista
-    dostępna na stronach <a href=
-    "http://www.jabber.org/software/clients.php">jabber.org</a>. Ciekawe
-    zestawienie klientów znajduje się także <a href=
+    <p>Aktualna lista dostępna jest na <a href=
     "http://en.wikipedia.org/wiki/List_of_Jabber_clients">na stronach
-    Wikipedii</a>. Można <a href=
+    encyklopedii Wikipedia</a> oraz na <a href=
+    "http://xmpp.org/software/clients.shtml">stronach protokołu</a>. Można
+    <a href=
     "http://en.wikipedia.org/wiki/Comparison_of_instant_messengers">porównać
-    możliwości klientów Jabbera z klientami innych sieci</a>.</p>
+    także możliwości klientów Jabbera z klientami innych sieci</a>.</p>
 
     <p class="cytat"><span class="small">Adium X, Agile, Akeni, Ayttm,
     BuddySpace, Cabber, centericq, Chatopus, Chatterbox, CJC, Coccinella,
@@ -1411,7 +1396,7 @@
 
       <li>Miły dla oka interfejs;</li>
 
-      <li>Wbudowane ikony dla różnych sieci (Gadu-Gadu, Tlen czy programów Psi
+      <li>Wbudowane ikony dla różnych sieci (Gadu-Gadu, czy programów Psi, Tlen
       itd.);</li>
 
       <li>Małe rozmiary i stosunkowo mało zasobożerny;</li>
@@ -1601,15 +1586,14 @@
     </div>
 
     <p>Pidgin to rozbudowany multikomunikator oraz klient Jabbera. Obsługuje
-    wiele protokołów natywnie (w tym polskie GG, istnieje wtyczka do sieci
-    Tlen, IRC czy ICQ). Dodatkowo istnieje możliwość rozbudowania go o nowe
-    wtyczki, które możemy sami sobie napisać. Program jest całkowicie
-    spolszczony, a od wersji 2.0 może pochwalić się jednym z lepszych i
-    bardziej przejrzystych interfejsów użytkownika. Mimo, że nie jest to tylko
-    klient Jabbera, przez co nie oferuje wszystkich rozszerzeń protokołu
-    Jabber, można go śmiało wszystkim polecić bo jest to naprawdę dopracowany
-    program. Więcej informacji na <a href="http://www.pidgin.im/">stronie
-    domowej komunikatora</a>.</p>
+    wiele protokołów natywnie (Gadu-Gadu, IRC, ICQ itd.). Dodatkowo istnieje
+    możliwość rozbudowania go o nowe wtyczki, które możemy sami sobie napisać.
+    Program jest całkowicie spolszczony, a od wersji 2.0 może pochwalić się
+    jednym z lepszych i bardziej przejrzystych interfejsów użytkownika. Mimo,
+    że nie jest to tylko klient Jabbera, przez co nie oferuje wszystkich
+    rozszerzeń protokołu Jabber, można go śmiało wszystkim polecić bo jest to
+    naprawdę dopracowany program. Więcej informacji na <a href=
+    "http://www.pidgin.im/">stronie domowej komunikatora</a>.</p>
 
     <p>Ciekawostką jest tekstowa wersja komunikatora, nazywana Finch, oparta o
     te same biblioteki co Pidgin. Finch jest przeznaczony dla systemów
@@ -1704,6 +1688,9 @@
     "http://faq.konnekt.info/">"Jak szybko i przyjemnie zainstalować i
     skonfigurować Konnekta"</a>.</p>
 
+    <p>Komunikator aktualnie nie jest już czynnie rozwijany, chociaż dalej ma
+    dużą rzeszę zwolenników.</p>
+
     <ul class="plus">
       <li>Polski program, polska wersja językowa, polska pomoc dostępna na
       stronie domowej; <img class="button" src="extras/polska.png" width="25"
@@ -1715,8 +1702,7 @@
       <li>Rozszerzalny przez system wtyczek;</li>
 
       <li>Do wyboru pluginy z <a href="#natywnosc">natywną obsługą</a> wielu
-      sieci (oprócz Jabbera, Gadu-Gadu, Tlen - uniezależnienie się od nieraz
-      niestabilnych transportów umieszczonych na serwerach);</li>
+      sieci (Gadu-Gadu i inne);</li>
 
       <li>Stonowany interfejs (dostępne także <i>wodotryski</i> typu
       przeźroczystość);</li>
@@ -1726,9 +1712,6 @@
       <li>Projekt aktualnie praktycznie martwy;</li>
 
       <li>Dostępny tylko dla Windows;</li>
-
-      <li>Miejscami drobne niedoróbki w interfejsie (testowałem wersję
-      0.6.21.121);</li>
     </ul>
 
     <ul class="galeria">
@@ -1777,8 +1760,7 @@
       wtyczek ze wszystkich komunikatorów);</li>
 
       <li>Do wyboru pluginy z <a href="#natywnosc">natywną obsługą</a> wielu
-      sieci (oprócz Jabbera, AIM, IRC, Gadu-Gadu, Tlen - uniezależnienie się od
-      nieraz niestabilnych transportów umieszczonych na serwerach);</li>
+      sieci (AIM, IRC, Gadu-Gadu);</li>
 
       <li>Stonowany interfejs(dostępne <i>wodotryski</i> typu
       przeźroczystość);</li>
@@ -2141,8 +2123,8 @@
     <ul class="normal">
       <li>Bramki pozwalające na komunikację z innymi sieciami. Działają na
       zasadzie tłumacza między nami a użytkownikami innej sieci. Na powyższej
-      ilustracji mamy dostępne bramki do sieci Gadu Gadu, ICQ, Tlen,
-      <acronym title="Internet Relay Chat">IRC</acronym> oraz innych.</li>
+      ilustracji mamy dostępne bramki do sieci Gadu Gadu, ICQ, <acronym title=
+      "Internet Relay Chat">IRC</acronym> oraz innych.</li>
 
       <li>Jabberowe pokoje rozmów, pozwalają na rozmowy grupowe.</li>
 
@@ -2157,31 +2139,9 @@
       pomocą kanałów RSS.</li>
     </ul>
 
-    <h2 id="podsumowanie"><a href="#podsumowanie">9. Podsumowanie</a></h2>
-
-    <p>Myślę że podoba ci się Jabber, że udało ci się bez większych problemów
-    zainstalować jakiegoś klienta, nie jest to całkowicie bezbolesne, ale na
-    pewno jest to dobry wybór. Jeżeli czujesz niedosyt informacji, pobuszuj na
-    <a href="http://www.jabberpl.org">www.jabberpl.org</a>, albo na <a href=
-    "http://www.jabber.org">www.jabber.org</a> i doczytaj wszystko.</p>
-
-    <ul>
-      <li><a href=
-      "http://www.jabberpl.org/SlowoPisane/DokumentacjaUzytkownicy">JabberPL
-      słowo pisane dla użytkowników</a></li>
-
-      <li><a href=
-      "http://www.jabberpl.org/SlowoPisane/DokumentacjaAdministratorzy">JabberPL
-      słowo pisane dla administratorów</a></li>
-
-      <li><a href=
-      "http://www.jabberpl.org/SlowoPisane/DlaProgramistow">JabberPL słowo
-      pisane dla programistów</a></li>
-    </ul>
-
     <h1>Dodatki</h1>
 
-    <h2 id="mapa">Dodatek A - Mapa użytkowników Jabbera.</h2>
+    <h2 id="mapa">Mapa użytkowników Jabbera.</h2>
 
     <p>Jesteśmy wszędzie. Jabbera używamy w Polsce, Europie, Afryce... chcesz
     pokazać światu gdzie jesteś i że także go używasz - dodaj się do jednej z
@@ -2214,8 +2174,7 @@
       <dd>Google Talk w Brazylii</dd>
     </dl>
 
-    <h2 id="emoticony">Dodatek B - Emotikony <acronym title=
-    "Gadu Gadu">GG</acronym>.</h2>
+    <h2 id="emoticony">Emotikony <acronym title="Gadu Gadu">GG</acronym>.</h2>
 
     <p>Poniżej kilka słów raczej bardziej historycznych. Większość
     komunikatorów od razu jest wyposażona w pełen zestaw emotikonek. Jeżeli
@@ -2240,31 +2199,34 @@
     w opcjach. Po kilku klikach możemy cieszyć się emotikonami z
     <acronym title="Gadu Gadu">GG</acronym> w swoim kliencie Jabbera.</p>
 
-    <h2 id="importgg">Dodatek C - Import listy kontaktów <acronym title=
-    "Gadu Gadu">GG</acronym>.</h2>
+    <h2 id="importgg">Import listy kontaktów <acronym title=
+    "Gadu Gadu">GG</acronym></h2>
 
     <p>Każdy na początek zabawy z Jabberem, zaczyna narzekać na problemy z
     importem listy kontaktów. Kiedyś umożliwiał to sam transport
     <acronym title="Gadu Gadu">GG</acronym>, co częściowo zostało już
     poprawione. W części wersji transportu <acronym title=
     "Gadu Gadu">GG</acronym> funkcja ta została jednak wyłączona, ponieważ jak
-    to zostało ujęte po prostu nie działała. Abstrahując od tego kto maczał w
-    tym palce i czy to twórcy <acronym title="Gadu Gadu">GG</acronym> coś
-    sprytnie przeprogramowali, więc jeżeli nie udało się zrobić tego przy
-    rejestracji transportu, trzeba uciec się do innych sposobów. Oczywiście
-    najprostszy to wpisanie ich ręcznie, co zajmie jakieś 5 - 10 minut. Jeżeli
-    jednak nie ma na to czasu lub chęci można spróbować skorzystać z <a href=
+    to zostało ujęte po prostu nie działała. Jeżeli nie wierzymy można zawsze
+    spróbować na własnej skórze. Rozpoczynając rozmowę z transportem GG
+    wpisujemy komendę <i>help</i>, a dalej kierujemy się zgodnie z opisem.
+    Jedna z komend pozwala na import listy kontaktów z serwera.</p>
+
+    <p>Dalej nie działa? Abstrahując od tego kto maczał w tym palce i czy to
+    twórcy <acronym title="Gadu Gadu">GG</acronym> coś sprytnie
+    przeprogramowali, więc jeżeli nie udało się zrobić tego przy rejestracji
+    transportu, trzeba uciec się do innych sposobów. Oczywiście najprostszy to
+    wpisanie ich ręcznie, co zajmie jakieś 5 - 10 minut. Jeżeli jednak nie ma
+    na to czasu lub chęci można spróbować skorzystać z <a href=
     "http://www.chomik.eu.org/jabber/">konwertera Chomika</a>. Ogólnie warto
     przeczytać wszystkie notki z tej strony, bo konwersja ta to ciągle szczypta
-    magii. Większa garść informacji o tej kłopotliwej czasem czynności opisana
-    jest także dokładniej na <a href=
-    "http://www.jabberpl.org/SlowoPisane/DokumentacjaUzytkownicy/ImportKontaktowGG?v=4ut">
-    stronach JabberPL.org</a>.</p>
+    magii.</p>
 
-    <p>Tutorial wraz ze screenami można zobaczyć na <a href=
-    "http://jabber.aster.pl/gg.html">http://jabber.aster.pl/gg.html</a>.</p>
+    <p>Działa? Nie działa? Komunikacja z siecią Gadu-Gadu nie jest częścią
+    protokołu XMPP/Jabber więc nie można mieć tutaj nigdy pewności co do
+    poprawnego wykonania tej operacji.</p>
 
-    <h2 id="blog">Dodatek D - Jogger czyli blog wprost z listy kontaktów.</h2>
+    <h2 id="blog">Jogger czyli blog wprost z listy kontaktów</h2>
 
     <div class="rightbox">
       <h1>blog</h1>
@@ -2316,7 +2278,7 @@
       <li><a href="http://www.sabifoo.com/index">Sabifoo</a></li>
     </ul>
 
-    <h2 id="pogoda">Dodatek E - Transport pogody.</h2>
+    <h2 id="pogoda">Transport pogody</h2>
 
     <div class="rightbox">
       <p>Konkretny serwer na którym istnieje działający transport pogody może
@@ -2340,7 +2302,7 @@
       <dd>Przykładowy status kontaktu pogody</dd>
     </dl>
 
-    <h2 id="ztm">Dodatek F - Rozkład jazdy warszawskiego ZTM.</h2>
+    <h2 id="ztm">Rozkład jazdy warszawskiego ZTM</h2>
 
     <div class="rightbox">
       <p>Konkretny serwer na którym istnieje działający transport ZTM może być
@@ -2365,8 +2327,7 @@
       <dd>Przykładowe zapytanie o rozkład jazdy autobusu 507</dd>
     </dl>
 
-    <h2 id="slownik">Dodatek G - Słownik polsko-angielski,
-    angielsko-polski.</h2>
+    <h2 id="slownik">Słownik polsko-angielski, angielsko-polski</h2>
 
     <div class="rightbox">
       <p>Konkretny serwer na którym istnieją działające słowniki może być inny
@@ -2398,32 +2359,7 @@
     Onetu, działają dobrze. Zależy to od słownika i wersji zainstalowanej na
     danym serwerze.</p>
 
-    <h2 id="cert">Dodatek H - Psi i certyfikaty serwerów.</h2>
-
-    <div class="rightbox">
-      <h1>Certyfikat</h1>
-
-      <p><a href="http://pl.wikipedia.org/wiki/Certyfikat">Certyfikat</a> to
-      elektroniczny podpis pozwalający na jednoznaczną identyfikację. Zapobiega
-      próbom podszywania się pod daną jednostkę.</p>
-    </div>
-
-    <p>Jeżeli używamy Psi po raz pierwszy możemy poczuć się zagubieni gdy przy
-    podłączaniu do serwerów otrzymujemy ostrzeżenie o niezgodnym certyfikacie.
-    Po pewnym czasie znudzi nam się klikanie na przycisk <code>ok</code>. Aby
-    to zlikwidować wystarczy ściągnąć plik certyfikatu na swój dysk do katalogu
-    <code>\certs\</code>. Przykładowo dla serwera <code>jabberpl.org</code>
-    certyfikat <a href="http://serwer.jabberpl.org/pliki.html">można znaleźć na
-    stronie serwera</a>. Każdy serwer powinien posiadać taką stronę z własnym
-    certyfikatem.</p>
-
-    <p>Drugim prostszym rozwiązaniem jest zaznaczenie opcji ignorowania
-    ostrzeżeń związanych z certfikatami. Należy pamiętać, że zaznaczając tą
-    opcje nie mamy nigdy pewności gdzie dokładnie się połączyliśmy. Widząc
-    zmianę certyfikatu powinniśmy zwrócić uwagę czy nie łączymy się do obcej
-    maszyny, która podszywa się pod nasz serwer.</p>
-
-    <h2 id="wikipedia">Dodatek I - Wikipedia na <acronym title=
+    <h2 id="wikipedia">Wikipedia na <acronym title=
     "liście kontaktów">rosterze</acronym></h2>
 
     <p>Jeżeli korzystasz z <a href="http://pl.wikipedia.org/">Wikipedii</a> -
@@ -2431,7 +2367,7 @@
     Nic prostszego bo teraz wystarczy dodać tylko <acronym title=
     "Jabber Identifier">JID</acronym> <code>wiki@jabber.autocom.pl</code>.</p>
 
-    <h2 id="tv">Dodatek J - Program TV</h2>
+    <h2 id="tv">Program TV</h2>
 
     <div class="rightbox">
       <p>Konkretny serwer na którym istnieje działający program telewizyjny
@@ -2476,7 +2412,7 @@
     10:10 - Ach, ten Andy! (Fox Kids)<br>
     09:35 - Imperium kobiet (Romantica)</span></p>
 
-    <h2 id="tlen">Dodatek K - Jabber a Tlen.</h2>
+    <h2 id="tlen">Jabber a Tlen</h2>
 
     <p class="cytat"><span class="small">" - (...) Znajomość języków
     obcych?<br>
@@ -2489,36 +2425,47 @@
     O!</span><br>
     -- <a href="http://www.rejs.art.pl/skrypt.php?online=1">Rejs</a></p>
 
-    <p>Dziwna atmosfera panuje w stosunkach jabberowo-tlenowych, ktoś mógłby
-    zapytać, dlaczego główna polska strona o Jabberze nie może mieć adresu
-    jabber.pl (zamiast jabberPL.org)? Zaskoczeniem może być odpowiedź, że
-    <a href=
-    "http://www.ripe.net/perl/whois?form_type=simple&amp;full_query_string=&amp;searchtext=jabber.pl&amp;do_search=Search">
-    adres ten jest wykupiony przez Tlen</a>. Pewnie jeszcze bardziej
-    zaskakująca jest informacja, że Tlen tak samo jak Spik, u podstaw ma
-    Jabbera. Teoretycznie powinien działać tak jak Wpkontakt/Spik bez bramek,
-    jako kolejny serwer. Jednak to wszystko to tylko teoria, jak na razie Tlen
-    się izoluje i nie chce połączyć z innymi użytkownikami. W skrócie można to
-    określić — Jeżeli nie wiadomo o co chodzi, chodzi o pieniądze. Więcej na
-    ten temat doczytasz na stronie: <a href=
-    "http://7thguard.net/news.php?id=3585">http://7thguard.net/news.php?id=3585</a>.
-    Została zorganizowana nawet akcja w stylu "Uwolnić orkę" i zbierane są
-    podpisy pod petycją do ludzi odpowiedzialnych za zamknięcie Tlena. Jeżeli
-    chcesz zobaczyć petycje lub wpisać się na nią zobacz <a href=
-    "http://www.petitiononline.com/tlenpl/petition.html">http://www.petitiononline.com/tlenpl/petition.html</a>.
-    Pierwsza pojawiła się wtyczka do Tlena umożliwiająca komunikację z
-    użytkownikami Jabbera. Nie wiem jak ona działa, ponieważ nie używałem nigdy
-    Tlena dłużej niż kilkanaście minut, jeżeli chcesz ją przetestować poszukaj
-    na stronie <a href="http://www.tlen.biz/">http://www.tlen.biz/</a> wtyczki
-    (plugina) o nazwie <code>k.jabber</code> lub po ostatniej zmianie nazwy
-    <code>k.smok</code>, ciekawe ile jeszcze wersji nazwy będzie. Ostatnie
-    wersje pozwalają na korzystanie z większości funkcjonalności Jabbera. Po
-    dłuższym czasie bojkotowania sieci Tlen pojawiły się transporty Tlena na
-    serwerach. Z moich testów wynika, że mimo swoich wczesnych wersji,
-    pozwalają na bezproblemową komunikację.</p>
+    <p>Dziwna atmosfera panowała przez wiele lat w stosunkach między
+    użytkownikami sieci Tlen i XMPP/Jabber. Serwer komunikatora Tlen
+    wykorzystujący ten otwarty protokół został zamknięty i pozbawiony
+    możliwości komunikacji z pozostałymi serwerami. Komunikator zamiast łączyć
+    ludzi stawiał sztuczne przeszkody. W sieci pojawiła się <a href=
+    "http://www.petitiononline.com/tlenpl/petition.html">petycja</a> żądająca
+    otwarcia sieci. Pojawiały się także <a href=
+    "http://7thguard.net/news.php?id=3585">artykuły</a> odwołujące się do uczuć
+    wyższych. Mimo usilnych oddolnych prób właściciele Tlen nie zdecydowali się
+    na odważny krok.</p>
 
-    <h2 id="jabber_roster_utility">Dodatek L - Szybkie zarządzanie kontaktami
-    na serwerze (Jabber Roster Utility).</h2>
+    <p>Do komunikacji pomiędzy siecią XMPP/Jabber a serwerem Tlen tworzono więc
+    tradycyjne transporty. Stworzono także specjalną wtyczkę dla komunikatora
+    Tlen znaną jako <i>k.jabber</i> oraz <i>k.smok</i>. Tworzono rozszerzenia
+    dla multikomunikatorów takich jak np. Miranda, Konnekt czy Pidgin.</p>
+
+    <p>Na nieistniejącej już stronie <i>hype.pl</i> dostępny był jeszcze w
+    okolicach końca roku 2008 wywiad z członkiem zarządu <i>o2.pl</i> gdzie
+    ciągle trzymano się twardej polityki i nie wyrażano zgody na otwarcie
+    serwera.</p>
+
+    <p>Zmiany nastąpiły dopiero w <a href=
+    "http://krzysztofsierota.pinger.pl/m/1819676/tlen7-rozmowy-z-innymi-sieciami">
+    wrześniu 2009</a> kiedy na serwerze mikroblogowym <i>Pinger</i> Krzysztof
+    Sierota ogłosił pojawienie się wersji beta komunikatora Tlen 7 gdzie jak
+    podał <q>[...] Za 2-3 tygodnie ukaże się publiczna beta komunikatora Tlen
+    7.0 [...] Najważniejsze zmiany: - rozmowa z użytkownikami gTalk i innych
+    sieci XMPP bez potrzeby zakładania konta XMPP - wsparcie gg8 - całkowicie
+    nowy silnik komunikatora, wsparcie dla platform MS Windows, MacOS, Linux -
+    poprawione działanie na Viscie [...] Okrojone wersje Tlenu 7 dostępne są
+    już na platformy Linux i MacOS [...]</q>. Serwer komunikatora Tlen został
+    po ośmiu latach otwarty na komunikację z swoją macierzystą siecią.</p>
+
+    <p>Ciekawostką jest także, że Tlen zainteresował się Jabberem tak szybko -
+    styczeń 2001, że jako pierwszy zdążył zarejestrować domenę
+    <i>jabber.pl</i>, która do dziś wskazuje na usługi powiązane z
+    <i>o2.pl</i>. Dlatego flagowa strona polskiej społeczności XMPP/Jabber
+    została postawiona w domenie <i>JabberPL.org</i>.</p>
+
+    <h2 id="jabber_roster_utility">Szybkie zarządzanie kontaktami na serwerze
+    (Jabber Roster Utility)</h2>
 
     <p>Czasami chcemy zarządzać naszymi kontaktami w sposób automatyczny -
     przykładowo przy migracji z jednego transportu <acronym title=
@@ -2563,8 +2510,8 @@
     zostawienie tam naszych kontaktów pobranych z konta pierwszego wraz z
     ewentualnymi modyfikacjami.</p>
 
-    <h2 id="zasob_i_priorytet"><a href="#zasob_i_priorytet">Dodatek M - Zasoby,
-    priorytety, cała prawda</a></h2>
+    <h2 id="zasob_i_priorytet"><a href="#zasob_i_priorytet">Zasoby, priorytety,
+    cała prawda</a></h2>
 
     <p>Zasób i priorytet to często nierozumiane przez użytkowników Jabbera
     terminy. Jeszcze częściej to rzeczy po prostu pomijane przy konfiguracji
@@ -2622,8 +2569,7 @@
       zasobach</a></li>
     </ul>
 
-    <h2 id="jabber_vs_xmpp"><a href="#jabber_vs_xmpp">Dodatek N - Jabber vs.
-    XMPP</a></h2>
+    <h2 id="jabber_vs_xmpp"><a href="#jabber_vs_xmpp">Jabber vs. XMPP</a></h2>
 
     <p>Co to jest Jabber, a co to jest XMPP? Czym różni się Jabber od XMPP? Czy
     powinno mówić się Jabber czy może XMPP? Wszystkie te wątpliwości <a href=
@@ -2686,8 +2632,7 @@
     przyrównanie Jabbera do sumy XMPP oraz JEPów, ponieważ jedna rzecz
     określana jako "Jabber" nie istnieje.</p>
 
-    <h2 id="stany"><a href="#stany">Dodatek O - Stany, widzialny,
-    niewidzialny</a></h2>
+    <h2 id="stany"><a href="#stany">Stany, widzialny, niewidzialny</a></h2>
 
     <p>Kilka słów na temat dostępnych do wyboru w większości klientów stanów.
     Ponieważ w wielu sieciach i klientach stanów jest znacznie mniej
@@ -2811,7 +2756,7 @@
     ustawianie stanu to dla mnie część podstawowej netykiety podczas używania
     Internetu.</p>
 
-    <h2 id="xep0070"><a href="#xep0070">Dodatek P - Logowanie za pomocą
+    <h2 id="xep0070"><a href="#xep0070">Logowanie za pomocą
     komunikatora</a></h2>
 
     <p>Protokół XMPP/Jabber jest elastyczny i rozszerzalny. Jednym z
@@ -2850,15 +2795,14 @@
     "http://wiki.identity20.pl/index.php?title=Wdro%C5%BCenia_OpenID">wiki
     Identity 2.0</a>.</p>
 
-    <h2 id="linki"><a href="#linki">Dodatek Q - Inne użyteczne linki</a></h2>
+    <h2 id="linki"><a href="#linki">Inne użyteczne linki</a></h2>
     <!-- http://del.icio.us/help/linkrolls -->
     <script type="text/javascript" src=
     "http://del.icio.us/feeds/js/michalus/jabberfaq?count=100;title=Moje%20inne%20u%C5%BCyteczne%20linki%20na%20del.icio.us;sort=alpha">
 </script> <noscript><a href="http://del.icio.us/michalus/jabberfaq">Moje inne
 użyteczne linki na del.icio.us</a></noscript> <!-- -->
 
-    <h2 id="propaganda"><a href="#propaganda">Dodatek R - Linki
-    propagandowe</a></h2>
+    <h2 id="propaganda"><a href="#propaganda">Linki propagandowe</a></h2>
 
     <p class="cytat"><span class="small">" (...) Yyyy... Każdy może prawda
     krytykować, a mam wrażenie, że dopuszczanie do krytyki panie to nikomu...
@@ -2878,10 +2822,8 @@ użyteczne linki na del.icio.us</a></noscript> <!-- -->
       <li><a href="http://www.w3.org/">Twórz strony zgodne ze
       standardami!</a></li>
 
-      <li><a href="http://www.logicunion.pl/Alternative/">Używaj alternatywnego
-      oprogramowania!</a></li>
-
-      <li><a href="http://operapl.net/nie/">Powiedz nie!</a></li>
+      <li><a href="http://www.gnu.org/philosophy/free-sw.pl.html">Używaj
+      Wolnego Oprogramowania!</a></li>
 
       <li><a href="http://www.bykom-stop.avx.pl/bannery.html">Bykom stop -
       Poprawna ortografia w Internecie</a></li>
@@ -2893,18 +2835,15 @@ użyteczne linki na del.icio.us</a></noscript> <!-- -->
     </ul>
 
     <div id="stopka">
-      Strona zgodna ze standardami ( <a href=
-      "http://validator.w3.org/check?uri=referer">valid html 4.01!</a> i
-      <a href="http://tinyurl.com/2gadgx">valid CSS!</a>)<br>
-      autor: Michał "michalus" Małecki, kontakt: <acronym title=
-      "Jabber Identifier">JID</acronym> <code>michalus { jabster (kropka) pl,
-      gmail (kropka) com }</code> (Drugi adres jest także adresem poczty
-      elektronicznej)<br>
-      <!--Creative Commons License-->
-       Ten artykuł jest dostępny na <a rel="license" href=
-      "http://creativecommons.org/licenses/by-nc-sa/2.0/pl/">licencji Creative
-      Commons by-nc-sa 2.0</a>. <!--/Creative Commons License-->
-       
+      Strona zgodna z <a href="http://validator.w3.org/check?uri=referer">html
+      4.01</a> i z poprawnym <a href="http://tinyurl.com/2gadgx">CSS</a>.
+      Autorem tekstów na tej stronie jest: Michał "michalus" Małecki, kontakt:
+      <acronym title="Jabber Identifier">JID</acronym> <code>michalus { jabster
+      (kropka) pl, gmail (kropka) com }</code>. Drugi adres jest także adresem
+      poczty elektronicznej - jeżeli to możliwe preferuje kontakt za pomocą
+      poczty elektronicznej. Ten artykuł jest dostępny na <a rel="license"
+      href="http://creativecommons.org/licenses/by-nc-sa/2.0/pl/">licencji
+      Creative Commons by-nc-sa 2.0</a>. 
       <!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><Work rdf:about=""><license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/pl/" /> <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" /></Work><License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/pl/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
     </div>
   </div>
