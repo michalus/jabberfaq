@@ -5,15 +5,24 @@ body {
 	margin: 0 0;
 	padding: 0 0;
 	margin: 5em 5em;
+	min-width: 700px;
+	max-width: 900px;
 }
 
 #content {	
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
 	font-family:        'Trebuchet MS', 'Arial', 'Tahoma', sans-serif;
 	font-size:          1.5em;
 	text-transform:     uppercase;
+	color:              #202020;
+	padding-bottom:     0em;
+}
+
+h3, h4 {
+	font-family:        'Trebuchet MS', 'Arial', 'Tahoma', sans-serif;
+	font-size:          1.5em;
 	color:              #202020;
 	padding-bottom:     0em;
 }
