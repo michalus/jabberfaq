@@ -48,7 +48,6 @@ h4 {
 p {
 	font-family: Georgia, Arial, Helvetica, sans-serif;
 	line-height: 1.33em;
-	font-size: 0.95em;
 	margin-left: 3em;
 	margin-right: 0.75em;
 	text-align: justify;
@@ -84,7 +83,8 @@ code {
 	padding-right: 0.45em;
 }
 
-.cytat {
+blockquote, .cytat {
+	font-size: 0.95em;
 	padding: 0.33em 6em 0.33em 2em;
 	border-left: 1px dashed #E7E7E7;
 }
@@ -115,7 +115,7 @@ code {
 
 a {
 	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
+	font-size: 0.9em;
   text-decoration: none;
 }
 
@@ -206,6 +206,7 @@ ul {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	padding: 0.33em 0 1em 175px;
+	margin-bottom: 6em;
 }
 
 dl {
