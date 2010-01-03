@@ -988,6 +988,8 @@
 
     <h2 id="klienty"><a href="#klienty">6. Klient Jabbera</a></h2>
 
+    <h3>Klient</h3>
+
     <div class="rightbox">
       <h1>Klient</h1>
 
@@ -1009,9 +1011,54 @@
     - <a href="http://pl.wikipedia.org/wiki/Klient">Wikipedia, Wolna
     Encyklopedia</a></p>
 
-    <p>Wracając do spraw Jabbera, drugim ważnym wyborem jest wybór klienta,
-    możemy przejrzeć je wyszukując na Google <code>jabber client</code>
-    (<a href=
+    <h3>Klient dedykowany</h3>
+
+    <p>Gdy rozumiemy już, że programów którymi możemy się komunikować wewnątrz
+    sieci XMPP/Jabber jest wiele musimy zdecydować się czy potrzebny nam jest
+    klient dedykowany tej sieci, czy starczy nam jeden z wielu
+    multikomunikatorów.</p>
+
+    <p>Klient dedykowany jednej sieci to program, którego celem nadrzędnym jest
+    obsługa danej sieci. Przykładem klientów dedykowanych i obsługujących tylko
+    sieć XMPP/Jabber są, między innymi, <a href="#psi">Psi</a> i <a href=
+    "#gajim">Gajim</a>. Wybór klienta dedykowanego sprawia, że dostajemy
+    program napisany tak aby w pełni korzystać z wszystkich możliwości Jabbera.
+    Rozwój takiego programu jest zgodny z kierunkiem rozwoju protokołu.</p>
+
+    <p>Innym rozwiązaniem jest wybór programu, który obsługuje wiele sieci
+    jednocześnie. Programy takie jak np.: <a href="#pidgin">Pidgin</a> nazywamy
+    multikomunikatorami. Po uruchomieniu łączą się z wieloma serwerami różnych
+    sieci i umożliwiają korzystanie z ich funkcjonalności. Jedną z wielu takich
+    sieci jest XMPP/Jabber. Wybór multikomunikatora sprawia, że otrzymujemy
+    zazwyczaj tylko podstawową listę funkcjonalności, a rozwój samego programu
+    czasami może nie pozwalać na używanie wszystkich rozszerzeń protokołu.</p>
+
+    <p>Oczywiście klient dedykowany nie oznacza, że nie możemy komunikować się
+    z innymi sieciami. Realizowane jest to jednak w inny sposób. Zamiast tak
+    jak multikomunikator łączyć się bezpośrednio do serwera obcej sieci używany
+    jest transport, tłumaczący komunikacje, na serwerze Jabbera. Szczegóły
+    opisano w sekcji <a href="#zasada_dzialania">Zasada działania</a>.</p>
+
+    <p>Wybór rozwiązania nie jest jednoznaczny i dla każdego z nas inna
+    konfiguracja może być wygodniejsza w użyciu.</p>
+
+    <p>Klient dedykowany daje nam największą wygodę używania wszystkich
+    możliwości XMPP/Jabber. Wymaga jednak od nas użycia transportów do
+    komunikacji z innymi sieciami. To oznacza dla nas, że otrzymamy zazwyczaj
+    bardziej zawodną i uproszczoną komunikację z użytkownikami innych
+    sieci.</p>
+
+    <p>Multikomunikator daje nam natomiast natywną obsługę pozostałych sieci,
+    bez pośrednictwa transportów serwera, ale zazwyczaj oznacza to skromniejszą
+    liczbę funkcji interesującego nas Jabbera. Multikomunikator jest także
+    rozwiązaniem uzależniającym nas od niego. Nie jest tak łatwo przenośny jak
+    skonfigurowane konto na serwerze Jabbera gdzie konto jest zawsze gotowe do
+    pracy na każdym kliencie zgodnym z protokołem.</p>
+
+    <h3>Wybór klienta</h3>
+
+    <p>Wracając do sprawy ważnej czyli wyboru klienta dla nas możemy przejrzeć
+    aktualne wyniki wyszukiwarki Google <code>jabber client</code> (<a href=
     "http://www.google.pl/search?q=%22jabber+client%22&amp;ie=UTF-8&amp;hl=pl&amp;btnG=Szukaj+z+Google&amp;lr=">zobacz
     wyniki szukania "jabber client"</a>), albo skorzystać z pomocy strony
     <a href="http://en.wikipedia.org/wiki/List_of_XMPP_client_software">z listą
@@ -1228,9 +1275,6 @@
     darmowych dla użytku domowego. Lista dostępna pod adresem: <a href=
     "http://www.pgpi.org/products/pgp/versions/freeware/">http://www.pgpi.org/products/pgp/versions/freeware/</a>.</p>
 
-    <p>Jajc można polecić zaawansowanym użytkownikom systemu Windows, którzy
-    nie zdecydowali się na Psi.</p>
-
     <ul class="plus">
       <li>Łatwo rozszerzalny przez system wtyczek;</li>
 
@@ -1251,6 +1295,8 @@
     </ul>
 
     <ul class="minus">
+      <li>Ostatnio mało dynamicznie rozwijany;</li>
+
       <li>Dostępny tylko dla Windows;</li>
 
       <li>Przez mnogość opcji może być trudny w konfiguracji;</li>
@@ -1258,8 +1304,6 @@
       <li>Czasami zbyt rozbudowany i zasobożerny;</li>
 
       <li>W niektórych miejscach nieintuicyjny interfejs;</li>
-
-      <li>Ostatnio mało dynamicznie rozwijany;</li>
     </ul>
 
     <ul class="galeria">
@@ -1291,9 +1335,6 @@
     realiów, co czasem jest pomocne. Sam Hapi jak na razie jest jeszcze w fazie
     rozwoju. Twórcy chcą stworzyć przyjazny użytkownikowi i łatwy w obsłudze
     komunikator.</p>
-
-    <p>Komunikator Pandion polecić można początkującym użytkownikom Windows,
-    jeżeli nie zdecydowali się na Spik.</p>
 
     <ul class="plus">
       <li>Polska wersja językowa (wybór przy instalacji programu); <img class=
@@ -1341,34 +1382,6 @@
     "extras/polska.png" width="25" height="15" alt="polski akcent" title=
     "polski akcent"></a></h3>
 
-    <div class="rightbox">
-      <h1 id="natywnosc">natywny</h1>
-
-      <p>Jeżeli usługa taka jak GG czy ICQ jest natywna, znaczy to że nasz
-      klient ma w sobie program do porozumiewania się z tymi sieciami. Program
-      odpowiada za połączenie z innymi sieciami i komunikacje.</p>
-
-      <h1>transport</h1>
-
-      <p>Jeżeli usługa jest oparta o transporty (tzw. bramki) na serwerze,
-      znaczy to że nasz klient wysyła informacje do serwera, który tłumaczy je
-      i porozumiewa się z innymi sieciami. Serwer odpowiada za połączenie i
-      komunikacje.</p>
-
-      <h1>natywność vs. transporty</h1>
-
-      <p>Podejście natywne jak i transporty mają swoje plusy i minusy. Jeżeli
-      transport działa źle np.: z powodu przeciążenia, nasza komunikacja z inną
-      siecią będzie przerywana. Rozwiązanie oparte o biblioteki natywne
-      zazwyczaj działa bezproblemowo. Jednak kiedy wykorzystujemy transporty
-      zyskujemy dużą swobodę i uniwersalność. Każdy inny klient jabberowy
-      będzie potrafił używać naszych kontaktów. Jeżeli korzystamy z transportów
-      zmiana klienta będzie niezauważalna. W przypadku usług natywnych nie
-      możemy zmienić programu na inny bez zmian w konfiguracji, zazwyczaj w
-      takiej sytuacji przenoszone są tylko kontakty jabberowe, trzymane po
-      stronie serwera.</p>
-    </div>
-
     <p>Ciekawostką jest promowanie Jabbera przez portal Wirtualna Polska, ich
     komunikator Spik (dawny <a href=
     "http://pl.wikipedia.org/wiki/Wpkontakt">wpkontakt</a>), który mógłby
@@ -1382,10 +1395,6 @@
     "http://pl.wikipedia.org/wiki/Session_Initiation_Protocol">SIP</a>. To
     czyni z ich komunikatora pełny zamiennik zasobożernego Skype.</p>
 
-    <p>Jeżeli masz problem z instalacją i konfiguracją koniecznie zerknij na
-    <a href="http://spik.wp.pl/pomoc.html">stronę domową z pomocą</a> lub zadaj
-    pytanie konsultantowi - szczegóły na stronie domowej programu.</p>
-
     <p>Od <a href=
     "http://spik.wp.pl/forum_viewtopic.html?t=211141&amp;f=197&amp;ticaid=19655">
     kwietnia 2009</a> Spik nie jest dalej rozwijany i nie będą dodawane nowe
@@ -1395,24 +1404,16 @@
     serwerów w Polsce.</p>
 
     <ul class="plus">
-      <li>Coś czego nie ma <u>nigdzie indziej</u> czyli <a href=
-      "http://spik.wp.pl/pomoc.html">żywy konsultant</a> odpowiadający na
-      wszystkie pytania związane z programem;</li>
-
       <li>Polski produkt, polska wersja językowa, polskie strony z pomocą;
       <img class="button" src="extras/polska.png" width="25" height="15" alt=
       "polski akcent" title="polski akcent"></li>
 
-      <li>Prosta konfiguracja (do uruchomienia <acronym title=
-      "Gadu Gadu">GG</acronym> czy ICQ wystarczy jedno kliknięcie myszą);</li>
+      <li>Prosta konfiguracja;</li>
 
       <li>Możliwość sprawdzania poczty;</li>
 
       <li>Zapisywanie ustawień prosto na serwerze, po zalogowaniu w każdym
       miejscu nasz Spik wygląda jak sobie ustawiliśmy;</li>
-
-      <li>Możliwość rozmów głosowych i wideo konferencji (tylko między
-      użytkownikami Spik) ;</li>
 
       <li><a href="#natywnosc">Natywna obsługa</a> sieci Gadu-Gadu oraz ICQ
       (uniezależnienie się od nieraz niestabilnych transportów umieszczonych na
@@ -1425,12 +1426,11 @@
     </ul>
 
     <ul class="minus">
+      <li>Produkt dalej nierozwijany;</li>
+
       <li>Dostępny tylko dla Windows;</li>
 
       <li>Brak pełnej przeglądarki usług na serwerach Jabbera;</li>
-
-      <li>Czasami denerwujący interfejs, dużo "upiększaczy" i wyskakujących
-      okienek (kwestia gustu);</li>
 
       <li>Niektóre opcje niekompatybilne z innymi klientami Jabbera (np.:
       przesyłanie plików, rozmowy głosowe i wideokonferencje) czyli dostępne
@@ -1464,15 +1464,6 @@
     </ul>
 
     <h3 id="pidgin"><a href="#pidgin">6.5 Pidgin</a></h3>
-
-    <div class="rightbox">
-      <h1>Multikomunikator</h1>
-
-      <p><a href=
-      "http://pl.wikipedia.org/wiki/Multikomunikator">Multikomunikator</a> to
-      specyficzny rodzaj komunikatora internetowego pozwalający na korzystanie
-      z kilku sieci naraz.</p>
-    </div>
 
     <p>Pidgin to rozbudowany multikomunikator oraz klient sieci XMPP/Jabber.
     Obsługuje wiele protokołów natywnie (Gadu-Gadu, IRC, ICQ itd.). Dodatkowo
