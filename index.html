@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta name="generator" content=
-  "HTML Tidy for Linux/x86 (vers 7 December 2008), see www.w3.org">
+  "HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
@@ -1211,13 +1211,9 @@
 
       <li>Prosty i przejrzysty interfejs;</li>
 
-      <li>Dostępne spolszczenie programu; <img class="button" src=
-      "extras/polska.png" width="25" height="15" alt="polski akcent" title=
-      "polski akcent"></li>
-
-      <li>Sprawdzanie pisowni w języku polskim; <img class="button" src=
-      "extras/polska.png" width="25" height="15" alt="polski akcent" title=
-      "polski akcent"></li>
+      <li>Polska wersja językowa i sprawdzanie pisowni w oknie rozmowy;
+      <img class="button" src="extras/polska.png" width="25" height="15" alt=
+      "polski akcent" title="polski akcent"></li>
 
       <li>Możliwość wykorzystania szyfrowania <acronym title=
       "Pretty Good Privacy">PGP</acronym> (trzeba dysponować programem GPG),
@@ -1228,7 +1224,11 @@
       <li>Obsługa <a href="http://pl.wikipedia.org/wiki/Jingle">Jingle</a>
       (rozmowy głosowe);</li>
 
-      <li><a href="#xep0070">Wsparcie dla XEP-0070</a>;</li>
+      <li><a href="#xep0070">Wsparcie dla XEP-0070 / Logowanie za pomocą
+      komunikatora</a>;</li>
+
+      <li><a href="#xep0163">Wsparcie dla XEP-0163 / PEP</a> (ang. <i>Personal
+      Eventing Protocol</i>);</li>
     </ul>
 
     <ul class="minus">
@@ -1707,20 +1707,23 @@
 
       <li>Współpraca z Open PGP (GnuPG);</li>
 
-      <li>Polska wersja językowa, sprawdzanie pisowni w oknie rozmowy;
+      <li>Polska wersja językowa i sprawdzanie pisowni w oknie rozmowy;
       <img class="button" src="extras/polska.png" width="25" height="15" alt=
       "polski akcent" title="polski akcent"></li>
 
       <li>Obsługa <i>metakontaktów</i>;</li>
 
-      <li>Wsparcie dla Google Mail, powiadomienie o nowej poczcie;</li>
+      <li>Integracja z pocztą <i>Google Mail</i>, powiadomienie o nowej
+      poczcie;</li>
 
-      <li><a href="#xep0070">Wsparcie dla XEP-0070</a>;</li>
+      <li><a href="#xep0070">Wsparcie dla XEP-0070 / Logowanie za pomocą
+      komunikatora</a>;</li>
+
+      <li><a href="#xep0163">Wsparcie dla XEP-0163 / PEP</a> (ang. <i>Personal
+      Eventing Protocol</i>);</li>
     </ul>
 
     <ul class="minus">
-      <li>Problemy z szybkością działania przy wielu zdarzeniach;</li>
-
       <li>Wersja dla Windows nie wpasowuje się zbyt dobrze w systemowy
       wygląd;</li>
     </ul>
@@ -2720,6 +2723,132 @@
     OpenID</a>. Listę serwisów używających OpenID można zobaczyć na <a href=
     "http://wiki.identity20.pl/index.php?title=Wdro%C5%BCenia_OpenID">wiki
     Identity 2.0</a>.</p>
+
+    <h2 id="xep0060"><a href="#xep0060">PubSub</a></h2>
+
+    <p>Jedną z mało wykorzystywanych możliwości protokołu XMPP jest <a href=
+    "http://xmpp.org/tech/pubsub.shtml">PubSub</a> - rozszerzenie dające
+    możliwość publikowania i odbierania dowolnych treści (w oderwaniu od
+    podejścia rozmowy dwóch osób, czy rozmów grupowych). Specyfikacja
+    rozwiązania opisana jest dokładnie w <a href=
+    "http://xmpp.org/extensions/xep-0060.html">XEP-0060</a>. Duża część została
+    zaimplementowana już w najpopularniejszych serwerach XMPP.</p>
+
+    <p>Idea mechanizmu PubSub jest bardzo prosta. Polega na możliwości
+    tworzenia węzłów (ang. <i>node</i>) i dodawania do nich treści (ang.
+    <i>item</i>). Jedyna różnica względem tego co najczęściej spotyka się w
+    Internecie to sposób rozprowadzania informacji o aktualizacjach pomiędzy
+    autorem, a czytelnikami.</p>
+
+    <p>Przykładowy serwis społecznościowy Twitter.com pozwala na utworzenie
+    konta i publikowanie krótkich informacji tekstowych. Wszyscy obserwujący
+    nas użytkownicy kiedy chcą wiedzieć czy opublikowaliśmy nowe informacje
+    muszą je pobrać z naszego konta (przykładowo wczytać stronę internetową lub
+    wcisnąć odśwież w kliencie Twittera).</p>
+
+    <p>W podejściu, które umożliwia PubSub obserwujący użytkownik rejestruje
+    się u autora i jest powiadamiany automatycznie o każdej opublikowanej
+    aktualizacji. Podstawowa zaleta takiego rozwiązania jest prosta do
+    odgadnięcia - wielokrotne zmniejszenie ilości danych wymienianych między
+    autorem, a czytelnikiem.</p>
+
+    <p>Rozszerzenie XEP-0060 oprócz specyfikacji technicznej nie opisuje
+    sposobu wykorzystania tego rozwiązania. Jednak przewidziane konfigurowalne
+    mechanizmy dają duże pole do wykorzystania. Warto zwrócić uwagę na duże
+    możliwości w połączeniu z <a href=
+    "http://xmpp.org/extensions/xep-0175.html">anonimową subskrypcją</a>,
+    możliwość definiowania subskrypcji w ramach grup własnej listy kontaktów,
+    <a href=
+    "http://xmpp.org/extensions/xep-0060.html#owner-configure-success">konfiguracji
+    węzłów oraz przechowywanych w nich treści</a>.</p>
+
+    <p>Całość, chociaż jeszcze nigdzie nie używana na dużą skalę, tworzy
+    wygodny w użyciu silnik gotowy do wykorzystania w wielu miejscach
+    dzisiejszej społecznościowej sieci.</p>
+
+    <p>Część flagowych serwerów Jabbera już dawno radzi sobie z obsługą PubSub
+    i spokojnie można przetestować z poziomu konsoli XML wysyłając kolejno:</p>
+
+    <ul>
+      <li><a href=
+      "http://xmpp.org/extensions/xep-0060.html#owner-create">Stworzenie
+      węzła</a> przez autora</li>
+
+      <li><a href=
+      "http://xmpp.org/extensions/xep-0060.html#subscriber-subscribe">Zarejestrowanie
+      dodatkowych czytelników</a></li>
+
+      <li><a href=
+      "http://xmpp.org/extensions/xep-0060.html#publisher-publish">Publikacji
+      informacji</a></li>
+    </ul>
+
+    <p>W odpowiedzi na konsoli XML czytelnika przeczytamy naszą co dopiero
+    dodaną wiadomość.</p>
+
+    <ul>
+      <li><a href="http://pubsubclient.sourceforge.net/">Biblioteka do obsługi
+      PubSub napisana w Pythonie</a></li>
+
+      <li><a href="http://x60br.berlios.de/">GUI do testów PubSub</a></li>
+    </ul>
+
+    <h3 id="xep0163"><a href="#xep0163">PubSub a PEP</a></h3>
+
+    <p>Dziś w sieci częściej spotykamy się z PEP (ang. <i>Personal Eventing
+    Protocol</i>), rozszerzeniem <a href=
+    "http://xmpp.org/extensions/xep-0163.html">XEP-0163</a>. Jest to
+    uproszczona wersja rozszerzenia <a href="#xep0060">XEP-0060</a> oferująca
+    pewien podzbiór jego funkcji. Różnicą PEP w stosunku do PubSub jest
+    przykładowo brak wpływu przez autora na tworzone węzły czy brak
+    konieczności wyboru węzła przez osobę zainteresowaną w jego odczytaniu.</p>
+
+    <p>Jeżeli dany klient obsługuje funkcjonalność, która wykorzystuje PEP,
+    serwer sam stworzy potrzebne węzły potrzebne do publikacji treści w ramach
+    tej funkcjonalności. Tak samo odczytanie danej treści odbywać się będzie w
+    sposób automatyczny, a sterowanie zostanie ograniczone do włączenia lub
+    wyłączenia samego odczytywania.</p>
+
+    <p>W ramach PEP aktualnie funkcjonują rozszerzenia:</p>
+
+    <ul>
+      <li><a href="http://xmpp.org/extensions/xep-0118.html">XEP-0118, User
+      Tune</a> - prezentowanie informacji o muzyce aktualnie odtwarzanej przez
+      użytkownika.</li>
+
+      <li><a href="http://xmpp.org/extensions/xep-0108.html">XEP-0108, User
+      Activity</a> - prezentowanie informacji o czynności wykonywanej przez
+      użytkownika</li>
+
+      <li><a href="http://xmpp.org/extensions/xep-0107.html">XEP-0107, User
+      Mood</a> - prezentowanie informacji o nastroju użytkownika</li>
+
+      <li><a href="http://xmpp.org/extensions/xep-0080.html">XEP-0080, User
+      Location</a> - prezentowanie</li>
+    </ul>
+
+    <p>Powyższe rozszerzenia po włączeniu dodają dodatkowe informacje, które
+    mogą być odczytane przez klienta także obsługującego dane rozszerzenie. Nie
+    jest to informacja tekstowa w statusie opisowym, który użytkownik sam może
+    wprowadzić ręcznie.</p>
+
+    <p>Do niektórych z tych rozszerzeń została dodana specjalna obsługa i tak
+    np. do <i>User Mood</i> komunikatory często prezentują odpowiednie ikony
+    obrazujące wybrany stan (np. uśmiechnięta buźka dla stanu
+    <i>szczęśliwy</i>).</p>
+
+    <p>Dla rozszerzenia <i>User Tune</i> lista obsługiwanych programów do
+    odtwarzania muzyki zależy od <a href=
+    "http://forum.jabberpl.org/index.php?showtopic=4851&amp;st=15&amp;p=38598">wybranego
+    klienta Jabbera</a>.</p>
+
+    <p>Klienty obsługujące PEP (XEP-0163):</p>
+
+    <ul>
+      <li a="" href="#psi">Psi</li>
+
+      <li><a href="#gajim">Gajim</a></li>
+    </ul>
 
     <h2 id="linki"><a href="#linki">Inne użyteczne linki</a></h2>
     <!-- http://del.icio.us/help/linkrolls -->
