@@ -424,6 +424,9 @@
 
       <li><a href="#xep0163">PubSub a PEP</a> (XEP-0163)</li>
 
+      <li><a href="#xep0146">Zdalna kontrola własnej sesji</a> (XEP-0050,
+      XEP-0146)</li>
+
       <li><a href="#propaganda">Linki propagandowe</a></li>
     </ul>
 
@@ -543,65 +546,56 @@
     <ul class="plus">
       <li>Oficjalny standard sieciowy.</li>
 
-      <li>Jest uniwersalny, nie tracisz kontaktu z użytkownikami innych sieci
-      takich jak sieć Gadu-Gadu czy ICQ. Można z jednego miejsca komunikować
-      się z użytkownikami wielu sieci.</li>
-
-      <li>Nie oglądasz denerwujących reklamówek i nie jesteś narażony na
-      <a href="http://7thguard.net/news.php?id=3690">dziwne praktyki</a> żadnej
-      firmy.</li>
-
-      <li>Nie płacisz za Jabbera ani grosza. Protokół, serwery oraz większość
-      klientów jest darmowa.</li>
-
-      <li>Twoje informacje są zawsze bezpieczne ponieważ komunikacja z serwerem
-      (klient - serwer) oraz komunikacja miedzy serwerami (serwer - serwer)
-      Jabbera może być szyfrowana. (<a href=
-      "http://pl.wikipedia.org/wiki/SSL">SSL</a>)</li>
-
-      <li>Nie jest narzucony jeden <a href=
-      "http://pl.wikipedia.org/wiki/Klient">klient</a>, nie jesteś ograniczony
-      do jakiegokolwiek <a href=
-      "http://pl.wikipedia.org/wiki/System_operacyjny">systemu</a>. (<a href=
-      "http://xmpp.org/software/clients.shtml">Windows</a>, <a href=
-      "http://xmpp.org/software/clients.shtml">Linux</a>, <a href=
-      "http://xmpp.org/software/clients.shtml">MacOS</a>, <a href=
-      "http://xmpp.org/software/clients.shtml">inne</a>)</li>
-
-      <li>Podczas komunikacji można korzystać z szyfrowania (klient - klient)
-      <acronym title="Pretty Good Privacy">PGP</acronym>. (<a href=
-      "http://pl.wikipedia.org/wiki/PGP"><acronym title=
-      "Pretty Good Privacy">PGP</acronym></a>; <a href=
-      "http://www.pgp.com/">pgp.com</a>; <a href=
-      "http://www.gnupg.org/">gnupg.org</a>;)</li>
-
-      <li>Cały otoczony jest przez idee open source przez co cały czas prężnie
-      się rozwija. (<a href="http://pl.wikipedia.org/wiki/Open_source">open
-      source</a>; <a href="http://opensource.org/">opensource.org</a>;)</li>
+      <li>Pozbawiony reklam i niezależny <a href=
+      "http://7thguard.net/news.php?id=3690">od żadnej firmy</a>.</li>
 
       <li>Nie posiada centralnego punktu, którego awaria powoduje zatrzymanie
       całej sieci.</li>
 
-      <li>Bardziej przyjazne identyfikatory, już nie musisz być numerem
-      <code>1855002366221</code>, tylko przykładowo
-      <code>aneta@jabber.org</code>. Dodatkowo bardzo szybko możesz <a href=
-      "#wlasnyserwer">postawić swój własny serwer</a> we własnej domenie i być
-      identyfikowany unikalnym identyfikatorem np.:
-      <code>sławek@borewicz.com</code>.</li>
+      <li>Zamiast numeru <code>185 500 236</code> własny, przyjazny
+      identyfikator <code>sławek@borewicz.com</code>.</li>
 
-      <li>Możliwość prowadzenia rozmów głosowych zgodnie z <a href=
-      "http://xmpp.org/extensions/xep-0166.html">rozwijanym rozszerzeniem
-      XEP-0166</a>.</li>
+      <li>Wykorzystuje szyfrowane połączenia dla komunikacji pomiędzy klientem
+      a serwerem, a także pomiędzy serwerami.</li>
+
+      <li>Umożliwia wykorzystanie dodatkowego szyfrowania pomiędzy klientami za
+      pomocą <a href=
+      "http://pl.wikipedia.org/wiki/PGP_%28program_kryptograficzny%29">PGP</a>.</li>
+
+      <li>Otoczony przez idee <a href="%3Ca%20href=">open source</a> cały czas
+      jest prężnie rozwijany.</li>
+
+      <li>Unikalne cechy i rozszerzenia takie jak np.: <a href=
+      "http://xmpp.org/extensions/xep-0166.html">rozmowy głosowe</a>, <a href=
+      "#xep0016">zaawansowane filtrowanie komunikacji</a>, <a href=
+      "#xep0070">obsługa logowania do innych systemów</a>, <a href=
+      "xep0060">zaawansowana publikacja treści</a>, <a href="#xep0146">zdalna
+      kontrola</a> własnego komunikatora i <a href=
+      "http://xmpp.org/extensions/">inne</a>.</li>
+
+      <li>Wbudowany <a href="#zasada_dzialania">mechanizm transportów</a>
+      umożliwia komunikację z innymi sieciami i komunikatorami.</li>
+
+      <li>Dostępny na każdą platformę i systemy operacyjne takie jak np.:
+      <a href="http://xmpp.org/software/clients.shtml">Windows</a>, <a href=
+      "http://xmpp.org/software/clients.shtml">Linux</a>, <a href=
+      "http://xmpp.org/software/clients.shtml">MacOS</a> i <a href=
+      "http://xmpp.org/software/clients.shtml">inne</a>.</li>
     </ul>
 
     <h3 id="minusy"><a href="#minusy">2.3. Rzeczy, które mogą przeszkadzać w
     Jabberze</a></h3>
 
     <ul class="minus">
-      <li>Transporty zapewniają prawie całą funkcjonalność. Przykładowo w
-      Jabberze nie mamy możliwości przesyłania pliku miedzy użytkownikiem
-      Jabbera a użytkownikiem sieci Gadu-Gadu czy wklejenia obrazka w okno
-      rozmowy - co także jest rozszerzeniem tamtego komunikatora.</li>
+      <li>Jabber to nie jest <i>multikomunikator</i> i jego rozwój nie idzie w
+      kierunku obsługi wszystkich innych sieci. Transporty zapewniające kontakt
+      z innymi sieciami to tylko dodatek do Jabbera, a nie jego podstawowa
+      funkcjonalność.</li>
+
+      <li>Wbudowany mechanizm transportów zapewnia prawie całą funkcjonalność.
+      Przykładowo w nie mamy możliwości przesyłania pliku miedzy użytkownikiem
+      Jabbera a użytkownikiem sieci Gadu-Gadu, czy wklejenia obrazka w okno
+      rozmowy (co także jest rozszerzeniem tamtego komunikatora).</li>
 
       <li>Rozszerzenia dla rozmów głosowych czy wideo konferencji nie są
       jeszcze ukończone i nie są tak wygodne jak rozwiązania konkurencji (np.
@@ -610,11 +604,6 @@
       <li>Jabber to nie jest magia ani <i>perpetuum mobile</i>, jeżeli źle się
       wybierze serwer on także może czasami nie działać. Na szczęście istnieją
       wtedy setki innych, które działają wyśmienicie.</li>
-
-      <li>Jabber to nie jest <i>multikomunikator</i> i jego rozwój nie idzie w
-      kierunku obsługi wszystkich innych sieci. Transporty zapewniające kontakt
-      z innymi sieciami to tylko dodatek do Jabbera, a nie jego podstawowa
-      funkcjonalność.</li>
     </ul>
 
     <h3 id="proste_dlaczego"><a href="#proste_dlaczego">2.4. Dlaczego akurat
@@ -2810,6 +2799,46 @@
 
       <li><a href="#gajim">Gajim</a></li>
     </ul>
+
+    <h3 id="xep0146"><a href="#xep0146">Zdalna kontrola własnej sesji</a></h3>
+
+    <p>Jedną z unikalnych cech protokołu XMPP/Jabber, która wynika także z
+    możliwości posiadania <a href="#zasada_dzialania">wielu jednocześnie
+    podłączonych do serwera połączeń</a>, jest możliwość zdalnej kontroli nad
+    podłączonymi przez nas sesjami.</p>
+
+    <p>Opisane w rozszerzeniu <a href=
+    "http://xmpp.org/extensions/xep-0050.html">XEP-0050</a> mechanizm wymiany
+    informacji o dostępnych zdalnych komendach został uściślony w rozszerzeniu
+    <a href="http://xmpp.org/extensions/xep-0146.html">XEP-0146</a> do
+    podstawowego zestawu komend oferowanych przez każdego klienta sieci
+    XMPP/Jabber.</p>
+
+    <p>Zgodnie z tym rozszerzeniem popularne klienty potrafią się między sobą
+    porozumieć i wykonać komendy takie jak:</p>
+
+    <ul>
+      <li>Zmiana statusu i priorytetu zdalnego połączenia</li>
+
+      <li>Odczytania oczekujących na zdalnym połączeniu wiadomości</li>
+
+      <li>Zmiana specyficznych ustawień zdalnego klienta (np. wyłączenie
+      głosu)</li>
+
+      <li>Akceptacja pobieranych plików</li>
+
+      <li>Opuszczenie pokoi rozmów grupowych</li>
+    </ul>
+
+    <p>Poniżej przykładowe okno wywołania zdalnej komendy komunikatorem
+    Psi.</p>
+
+    <dl>
+      <dt><img src="images/komendy.png" alt="Zdalna kontrola własnej sesji"
+      title="Zdalna kontrola własnej sesji"></dt>
+
+      <dd>Zdalna kontrola własnej sesji</dd>
+    </dl>
 
     <h2 id="propaganda"><a href="#propaganda">Linki propagandowe</a></h2>
 
