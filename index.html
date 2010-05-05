@@ -412,7 +412,10 @@
 
       <li><a href="#jabber_vs_xmpp">Jabber vs. XMPP</a></li>
 
-      <li><a href="#stany">Stany, widzialny, niewidzialny</a></li>
+      <li><a href="#stany">Stany, widzialny, niewidzialny (XEP-0018,
+      XEP-0126)</a></li>
+
+      <li><a href="#xep0016">Listy prywatności</a> (XEP-0016)</li>
 
       <li><a href="#xep0070">Logowanie za pomocą komunikatora</a>
       (XEP-0070)</li>
@@ -2544,25 +2547,27 @@
     </ul>
 
     <p>Stan niewidoczności wprowadził pewne zamieszanie. Początkowo nie został
-    on przewidziany i został dodany dopiero jako kolejne rozszerzenie oznaczone
-    numerem <i>JEP 0018</i>. Ze względu na problemy techniczne o których można
-    przeczytać w linkach poniżej JEP 0018 został wycofany jako niezgodny z
-    protokołem XMPP. Część klientów i serwerów oferuje jeszcze to rozszerzenie,
-    jednak jest to czas przejściowy przed powszechnym wykorzystywaniem
-    rozbudowanego mechanizmu <i>privacy-lists</i> i rozszerzenia JEP 0126.
-    Mechanizm <i>privacy-list</i> jest zgodny z protokołem XMPP i oferować
-    będzie zaawansowane metody filtrowania i ustalania zasad widoczności dla
-    wszystkich użytkowników.</p>
+    on przewidziany i został dodany dopiero jako kolejne rozszerzenie <a href=
+    "http://xmpp.org/extensions/xep-0018.html">XEP-0018</a>. Ze względu na
+    problemy techniczne o których można przeczytać w odnośnikach poniżej został
+    później wycofany jako niezgodny z protokołem.</p>
+
+    <p>Część klientów i serwerów oferuje jeszcze to odrzucone rozszerzenie,
+    jednak jest to czas przejściowy przed wykorzystywaniem mechanizmu <a href=
+    "#xep0016">list prywatności</a>.</p>
 
     <ul>
-      <li><a href="http://xmpp.org/extensions/xep-0018.html">wycofany z użytku
-      XEP-0018</a></li>
+      <li>Wycofane z użytku rozszerzenie <a href=
+      "http://xmpp.org/extensions/xep-0018.html">XEP-0018</a></li>
 
-      <li><a href="http://xmpp.org/extensions/xep-0126.html">JEP-0126</a></li>
+      <li>Wprowadzone rozszerzenie <a href=
+      "http://xmpp.org/extensions/xep-0126.html">XEP-0126</a> opisujące dodanie
+      stanu niewidzialności za pomocą mechanizmu <a href="#xep0016">list
+      prywatności</a></li>
 
-      <li><a href=
-      "http://staff.xiaoka.com/smoku/2005/06/12/jabber-xmpp-a-niewidzialnosc/">Wpis
-      na <i>joggu</i> Smoka na temat niewidzialności</a></li>
+      <li>Wpis na <a href=
+      "http://staff.xiaoka.com/smoku/2005/06/12/jabber-xmpp-a-niewidzialnosc/">blogu
+      Smoka</a> na temat niewidzialności</li>
     </ul>
 
     <h4 id="jak_ustawic_stan"><a href="#jak_ustawic_stan">Jak ustawiać
@@ -2570,18 +2575,16 @@
 
     <p>Jeżeli znasz już wszystkie stany i wiesz, który z nich co oznacza
     chciałbym napisać kilka słów o ich ustawianiu. Oczywiście sprawa tego co i
-    jak ustawisz jest jak najbardziej dowolna. Znaczenie ich to jedynie
-    wskazówka ich wykorzystania i każdy wykorzysta to tak jak będzie mu to
+    jak ustawisz jest jak najbardziej dowolna. Ich znaczenie to jedynie
+    wskazówka dla ich wykorzystania. Każdy wykorzysta to tak jak będzie mu to
     wygodne. Warto jednak przyjąć kilka zasad ich używania.</p>
 
     <p>Pozbawione sensu zazwyczaj jest ustawianie sobie ciągle stanu
     niewidoczności. Komunikator jest po to aby się komunikować, a ukrywanie się
     przed innymi przez cały czas uniemożliwia innym nawiązanie z tobą rozmowy.
     Jeżeli masz bardzo długą listę kontaktów, na której jest część osób dla
-    których chcesz pozostać rozłączony wykorzystaj mechanizm
-    <i>privacy-lists</i>. Niektóre klienty już go oferują. Jeżeli go nie
-    oferują, zawsze można spróbować rozwiązać to <a href=
-    "http://sznik.jogger.pl/id/83633">prosto na serwerze</a>.</p>
+    których chcesz pozostać rozłączony wykorzystaj mechanizm <a href=
+    "xep0016">list prywatności</a>.</p>
 
     <p>Jeżeli ktoś ustawia sobie stan nie przeszkadzaj to uszanujmy to i nie
     przeszkadzajmy mu. To nie jest dobry czas na zagadywanie słowami <q>cześć
@@ -2597,6 +2600,47 @@
     spodziewać się odpowiedzi, czy po prostu tego kogoś nie ma. Odpowiednie
     ustawianie stanu to dla mnie część podstawowej netykiety podczas używania
     Internetu.</p>
+
+    <h2 id="xep0016"><a href="#xep0016">Listy prywatności</a></h2>
+
+    <p>Wiodące serwery i komunikatory obsługują rozszerzenie <a href=
+    "http://xmpp.org/extensions/xep-0016.html">XEP-0016</a> znane, z
+    angielskiego, jako <i>Privacy Lists</i>. Rozszerzenie to pozwala
+    użytkownikowi na tworzenie jednej, lub wielu, listy opisującej filtrowanie
+    przychodzących i wychodzących pakietów po stronie serwera.</p>
+
+    <p>To co brzmi dosyć zaawansowanie zaawansowane wcale nie jest. Po wybraniu
+    aktywnej dla sesji, lub domyślnej dla wszystkich sesji, listy mamy
+    możliwość dodawania jej kolejnych pozycji opisujących zachowania jak podano
+    niżej.</p>
+
+    <dl>
+      <dt><img src="images/privacy1.png" alt=
+      "Listy prywatności - wybór aktywnej listy"></dt>
+
+      <dd>Wybór aktywnej listy prywatności</dd>
+
+      <dt><img src="images/privacy2.png" alt=
+      "Listy prywatności - edycja pozycji listy"></dt>
+
+      <dd>Edycja pozycji listy prywatności</dd>
+    </dl>
+
+    <p>Jeżeli kontakt posiada podany identyfikator JID np.
+    <i>janek@kowalski.pl</i>, lub należy do podanej grupy kontaktów (grupa
+    kontaktów z naszej własnej listy kontaktów np. <i>Ukryci</i>) to dopuść lub
+    zablokuj ruch opisany wg kategorii: <i>Pojedyncze wiadomości</i> lub
+    <i>Rozmowy</i> lub <i>Wychodzące informacje o dostępności</i> lub
+    <i>Przychodzące informacje o dostępności</i>.</p>
+
+    <p>Jak widać można w prosty sposób stworzyć grupę, do której dodani
+    użytkownicy nie będą widzieć naszego aktualnego statusu (będą widzieć nas
+    jako rozłączonych). Widać także jak w prosty sposób ignorować całą nadawaną
+    komunikację od konkretnej osoby czy od osób spoza listy kontaktów.</p>
+
+    <p>Jeżeli nasz komunikator nie posiada wsparcia dla edycji list można
+    spróbować poradzić sobie ręcznie tak jak opisano na <a href=
+    "http://sznik.jogger.pl/id/83633">blogu Sznika</a>.</p>
 
     <h2 id="xep0070"><a href="#xep0070">Logowanie za pomocą
     komunikatora</a></h2>
