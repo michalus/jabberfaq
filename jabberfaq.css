@@ -109,8 +109,23 @@ blockquote, .cytat {
 
 .rightbox h1 {
 	font-size: 1em;	
-	margin-left: 0.5em;
+	margin-left: 0.33em;
 }
+
+.smallrightbox {
+	width: 100px;
+	float: right;
+	padding: 0.05em;
+	margin: 0.5em;
+	background: #fafae1;
+	font-size: 0.7em;
+}
+
+.smallrightbox p {
+	margin-left: 1em;
+	text-align: left;
+}
+
 
 a {
 	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
@@ -185,7 +200,7 @@ ul .wewnetrzny {
 	margin-top: 0.33em;
 	padding-top: 1.5em;
 	border-top: 1px;
-	border-top-color: gray;
+	border-top-color: #dbdbc5;
 	border-top-style: dotted; 
 }
 
